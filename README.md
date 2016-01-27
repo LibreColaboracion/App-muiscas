@@ -1,5 +1,10 @@
 <head>
   <link rel="stylesheet" type="text/css" href="/readme/readme.css" />
+  <style>
+  h2{
+    color:red;
+  }
+  </style>
 </head>
 <body>
 <h2>App-muiscas</h2>
