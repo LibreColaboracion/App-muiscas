@@ -1,19 +1,21 @@
 .cabecera { border-style: dotted;
 			width: 100%;
-			max-width: 800px;
+			
 			margin: auto;
 }
-.logo{float: left;
-		margin: 10px 10px 10px 10px;
-
+.logo{	width:10%;
+   	 	float: left;
+  		margin:1.5%;
 }
 
 
 
 
 .titulos { 
-			font-family: arial;
-			font-size: 1.3em;
+			font-family:"helvetica";
+    		font-size: 6vw;
+   			line-height: 0;
+   			
 			
 }
 
