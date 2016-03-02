@@ -1,0 +1,45 @@
+.gris{
+    filter: grayscale(0); /* Color */
+    filter: grayscale(0.5); /* 50% color */
+    filter: grayscale(1); /* Blanco y negro */
+}
+.tamaño{
+    width:300px;
+}
+.pequeña{
+    width:170px;
+    transition:all 4s;
+}
+.color{
+    transition:all 4s;
+}
+.transparente{
+     opacity: 0;
+     transition:all 4s;
+}
+.semitransparente{
+     opacity: 0.3;
+     transition:all 4s;
+}
+.aparecer{
+    opacity: 1;
+}
+/*Nuestros estilos*/
+.fondoestrofa1{
+    background-size: cover;
+    background-image: url(../imagenes/fondo1.jpg);
+    background-repeat: no-repeat;
+}
+.fondoestrofa2{
+    background-size: cover;
+    background-image: url(../imagenes/fondo2.jpg);
+    background-repeat: no-repeat;
+}
+.fondoestrofa3{
+    background-size: cover;
+    background-image: url(../imagenes/fondo3.jpg);
+    background-repeat: no-repeat;
+}
+.mitamaño{
+    width: 20%;
+}
