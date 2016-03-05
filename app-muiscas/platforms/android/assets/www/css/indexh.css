@@ -1,0 +1,71 @@
+.cabecera { 
+    border-style: dotted;
+    width: 100%;
+    height:9vw;
+    margin: auto;
+    background-color:red;
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+.logo{
+    width:5%;
+    float: left;
+    margin:1.5%;
+}
+.titulos { 
+    font-family:"helvetica";
+    font-size: 4vw;
+    line-height: 0;
+}
+.cuerpo {
+    border-style: dotted;
+    width: 100%;
+    height:100%;
+    background-color: black;
+    color: white;
+    position:absolute;
+    left:0;
+    top:9.1vw;
+}
+.botones{
+    width: 45%;
+    height:20%;
+}
+.derechos{
+    border-style: dotted;
+    border-color: red;
+    float: left;
+}
+.izquierdos{
+    border-style: dotted;
+    border-color: green;
+    float: right;
+}
+.centros{
+    border-style: dotted;
+    border-color: green;
+    position:relative;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.pie{
+    border-style: dotted;
+    border-color: purple;
+    width: 100%;
+    height: 50px;
+    float: right;
+    background-color: green;
+}
+#contenido { border-style: dotted;
+			width: 100%;
+			max-width: 800px;
+			margin: auto;
+			min-height:400px;
+    		height:100%;
+			background-color: red;
+			color: white;
+
+
