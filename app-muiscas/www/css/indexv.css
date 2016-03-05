@@ -32,7 +32,7 @@
 }
 .botones{
     width: 45%;
-    height:24%;
+    height:25%;
 }
 .derechos{
     border-style: dotted;
@@ -47,17 +47,23 @@
 
 .centros{
 	border-style: dotted;
-	border-color: green;
-	float: right;
+	border-color: blue;
+	position: absolute;
+	bottom: 19%;
+	width: 100%;
 }
 
 .pie{
 	width: 100%;
-	height: 23%;
-	background: green;
+	height: 17%;
+	background: black;
 	border-top: 2px solid #000;
 	position: absolute;
 	bottom: 0;
+	font-size: 0.8em;
+	text-align: center;
+
+
 	
 
 }
