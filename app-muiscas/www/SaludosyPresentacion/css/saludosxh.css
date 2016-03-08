@@ -1,0 +1,18 @@
+body{
+     margin:0;
+}
+ .cabecera {
+    width: 100%;
+    position: fixed;
+    background-color:#1AB1E1;
+}
+.logo{	
+    width:7.5vh;
+    float: left;
+    margin:2%;
+}
+.titulo{
+    font-family:"helvetica";
+    font-size: 5vh;
+    line-height:0.75;
+}

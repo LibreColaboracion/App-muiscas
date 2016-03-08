@@ -7,13 +7,13 @@ body{
             margin: auto;
             background-color:#1AB1E1;
 }
-.logo{	width:10%;
+.logo{	width:7.5%;
    	 	float: left;
-  		margin:1.5%;
+  		margin:2%;
 }
 
 
-.titulos { 
+.titulo{ 
 			font-family:"helvetica";
     		font-size: 6vw;
    			line-height: 0;
