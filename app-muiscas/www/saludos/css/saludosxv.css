@@ -3,8 +3,9 @@ body{
 	padding: 0;
 }
 .cabecera { border-style: dotted;
-			width: 100%;
-			margin: auto;
+            width: 100%;
+            margin: auto;
+            background-color:#1AB1E1;
 }
 .logo{	width:10%;
    	 	float: left;
