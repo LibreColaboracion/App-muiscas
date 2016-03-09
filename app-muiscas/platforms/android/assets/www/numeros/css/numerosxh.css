@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    padding:0;
+}
+ .cabecera {
+    width: 100%;
+    position: fixed;
+    background-color:#95C11E;
+}
+.logo{	
+    width:7.5vh;
+    float: left;
+    margin:2%;
+}
+.titulo{
+    font-family:"helvetica";
+    font-size: 5vh;
+    line-height:0.75;
+}
+.cuerpo{
+    width:100%;
+    height:75%;
+    min-width:480px; 
+    position:fixed;
+    top:25%;
+    
+}
+.boton{
+    width:30%;
+}
+.derechos{
+    position:absolute;
+    left:5%;
+}
+.izquierdos{
+    position:absolute;
+    right:5%;
+}
+.centros{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -30%);
+}

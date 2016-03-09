@@ -1,0 +1,148 @@
+body{
+	margin:0;
+	padding: 0;
+}
+.cabecera { border-style: dotted;
+            width: 100%;
+            margin: auto;
+            background-color:#1AB1E1;
+}
+.logo{	width:7.5%;
+   	 	float: left;
+  		margin:2%;
+}
+
+
+.titulo{ 
+			font-family:"helvetica";
+    		font-size: 6vw;
+   			line-height: 0;
+
+			
+}
+
+.cuerpo { 	width: 95%;
+    		height:100%;
+			margin:auto;
+			color: black;
+						
+	}		
+
+ 	
+
+
+
+.pie{
+	width: 100%;
+	height: 5%;
+	border-top: 2px solid #000;
+	position: absolute;
+	bottom: 0;
+	font-size: 0.8em;
+	text-align: center;
+	background-color: black;
+
+}
+
+
+.chat{ margin: 1% 1% 1% 1%;
+		
+
+}
+
+.bombaiz 
+{
+	position: relative;
+	width: 90%;
+	height: 80%;
+	padding: 0px;
+	background: #EEFFFF;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: #8C6E7F solid 2px;
+	float: right;
+	text-indent:10%;
+	font-size: 4vh;
+}
+
+.bombaiz:before 
+{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 8px 15px 8px 0;
+	border-color: transparent #EEFFFF;
+	display: block;
+	width: 0;
+	z-index: 1;
+	margin-top: -8px;
+	left: -15px;
+	top: 40%;
+}
+
+.bombaiz:after 
+{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 9px 16px 9px 0;
+	border-color: transparent #8C6E7F;
+	display: block;
+	width: 0;
+	z-index: 0;
+	margin-top: -9px;
+	left: -18px;
+	top: 40%;
+}
+
+
+
+
+.bombader
+{
+	position: relative;
+	width: 90%;
+	height: 80%;
+	float: left;
+	padding: 0px;
+	background: #9DFF89;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: #8C6E7F solid 2px;
+	text-align: right;
+	font-size: 4vh;
+
+}
+
+.bombader:before 
+{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 8px 0 8px 15px;
+	border-color: transparent #9DFF89;
+	display: block;
+	width: 0;
+	z-index: 1;
+	margin-top: -8px;
+	right: -15px;
+	top: 40%;
+}
+
+.bombader:after 
+{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 9px 0 9px 16px;
+	border-color: transparent #8C6E7F;
+	display: block;
+	width: 0;
+	z-index: 0;
+	margin-top: -9px;
+	right: -18px;
+	top: 40%;
+}
+
