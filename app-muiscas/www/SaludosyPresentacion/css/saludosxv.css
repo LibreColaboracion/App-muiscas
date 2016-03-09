@@ -143,12 +143,12 @@ body{
     right:0;
 }
 .izquierda{
-    background-color:#ffb380;
-    border: 0.1em solid #ffb380;
+    background-color:#ffff00;
+    border: 0.1em solid #ffff00;
 }
 .derecha{
-    background-color:#99cc33;
-    border: 0.1em solid #99cc33;
+    background-color:#ffa726;
+    border: 0.1em solid #ffa726;
 }
 .contexto{
     width:100%;
@@ -156,6 +156,7 @@ body{
 }
 .texto{
     width:99%;
+    color:#fffff;
 }
 .imgaudio{
     width:20%;
