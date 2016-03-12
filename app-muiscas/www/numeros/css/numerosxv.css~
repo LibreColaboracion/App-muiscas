@@ -25,14 +25,13 @@ body{
 			
 }
 
-.cuerpo { 
+.cuerpo { display:block;
 			width: 100%;
          position:absolute;
          top:9%;
 }
 
 .imagen {width: 100%;
-			display:block;
 
 }
 
