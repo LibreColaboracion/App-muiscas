@@ -5,11 +5,13 @@ body{
 }
 
 
-.cabecera { border-style: dotted;
-			width: 100%;
-			margin: auto;
+.cabecera {
+    border-style: dotted;
+    width: 100%;
+    margin: auto;
          background-color:#95C11E;
          position:fixed;
+   z-index:90;	
 }
 .logo{	width:10%;
    	 	float: left;

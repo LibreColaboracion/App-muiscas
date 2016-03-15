@@ -43,3 +43,86 @@
 .mitamaño{
     width: 20%;
 }
+.cuchavivap{
+    position:absolute;
+    left: 25%;
+    top: 25%;
+    font-size: 10vw;
+    transition: all 5s;
+}
+.cuchavivazoom{
+    position: absolute;
+    left: 15%;
+    top:20%;
+    font-size: 15vw;
+    transition: all 5s;
+}
+.estrofa2{
+position:fixed;
+left:50%;
+top:70%;
+font-size:3vw;
+}
+.estrofa3{
+position:fixed;
+left:5%;
+top:10%;
+font-size:4vw;
+}
+.estrofa4{
+    color:#ff1744;
+position:fixed;
+left:40%;
+top:60%;
+font-size:3vw;
+}
+.estrofa5{
+position:fixed;
+left:5%;
+top:10%;
+font-size:3vw;
+}
+.estrofa6{
+position:fixed;
+left:13%;
+top:13%;
+font-size:3vw;
+}
+.estrofa7{
+position:fixed;
+left:15%;
+top:15%;
+font-size:3vw;
+}
+.estrofa9{
+position:fixed;
+left:´11%;
+top:12%;
+font-size:3vw;
+}
+.estrofa1{
+position:fixed;
+left:50%;
+top:70%;
+font-size:3vw;
+}
+.fondoestrofa6{
+    background-size: cover;
+    background-image: url(../imagenes/fondo6.png);
+    background-repeat: no-repeat;
+}
+.fondoestrofa7{
+    background-size: cover;
+    background-image: url(../imagenes/fondo7.png);
+    background-repeat: no-repeat;
+}
+.fondoestrofa4{
+    background-size: cover;
+    background-image: url(../imagenes/fondo4.png);
+    background-repeat: no-repeat;
+}
+.fondoestrofa5{
+    background-size: cover;
+    background-image: url(../imagenes/fondo5.png);
+    background-repeat: no-repeat;
+}
