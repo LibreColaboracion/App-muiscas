@@ -25,19 +25,38 @@ body{
     line-height: 0;
 }
 
-.cuerpo{width: 100%;    
-        height: 500px;
+.cuerpo{width: 100%; 
+        height: 500px;   
         background-color: red;
+        margin: 0 auto;
+        
 }
+
 
 
 
 #boton1{
     background-image:url("../img/horizontal1.png");   
-   width: 100%;
-    height: 50%;
     background-repeat: no-repeat;
-   background-position: bottom right;
+    background-position: bottom right;
+    background-size: 100%;
+    height:42%;
 
 }
 
+#boton2{
+    background-image:url("../img/horizontal2.png");   
+    height: 34%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 100%;
+
+}
+#boton3{
+    background-image:url("../img/horizontal3.png");   
+    height: 34%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 100%;
+
+}
