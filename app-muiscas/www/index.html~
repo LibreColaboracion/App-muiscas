@@ -7,7 +7,7 @@
         <link rel="stylesheet" media="all and (orientation:portrait)" type="text/css" href="css/indexv.css">
                     <!-- Este es el css horizontal -->
         <link rel="stylesheet" media="all and (orientation:landscape)" type="text/css" href="css/indexh.css">
-        <title>Cartilla lengua Muisca</title>
+        <title>Cartilla sobre lengua Muisca</title>
     </head>
     <body>
         <div class= "cabecera">
