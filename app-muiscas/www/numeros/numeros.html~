@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, maximum-scale=2">
                     <!-- Esté es el css del menu -->
-        <link rel="stylesheet" type="text/css" href="../css/menu.css">
+        <link rel="stylesheet" type="text/css" href="../../css/menu.css">
                     <!-- Esté es el css vertical -->
         <link rel="stylesheet" media="all and (orientation:portrait)" type="text/css" href="css/numerosxv.css">
                     <!-- Este es el css horizontal -->
@@ -32,8 +32,8 @@
         </div>
         <div class= "cuerpo">
 				<a href="html/informacion.html"><img class="imagen" src="imagenes/boton-numeros-informacion.png"></a>
-            <a href="htttp://www.googlr.com"><img class="imagen"src="imagenes/boton-numeros-numeros.png"></a>
-				<a href="htttp://www.googlr.com"><img class="imagen" src="imagenes/boton-numeros-ejercicios.png"></a>
+            <a href="html/numeros.html"><img class="imagen"src="imagenes/boton-numeros-numeros.png"></a>
+				<a href="html/ejercicios.html"><img class="imagen" src="imagenes/boton-numeros-ejercicios.png"></a>
             
             
         </div>
