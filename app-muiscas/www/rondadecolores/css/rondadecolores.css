@@ -126,3 +126,22 @@ font-size:3vw;
     background-image: url(../imagenes/fondo5.png);
     background-repeat: no-repeat;
 }
+.fondoestrofa9{
+    background-size: cover;
+    background-image: url(../imagenes/fondo%209.png);
+    background-repeat: no-repeat;
+}
+.colibrigif{
+width: 40%;    
+}
+.inicio{
+position:fixed;
+left:60%;
+top: 30%;
+}
+.final{
+    position:fixed;
+left:25%;
+top: 46%;
+transition: all 3s;
+}
