@@ -1,38 +1,62 @@
 body{
-	margin:0;
-	
+ 
 
 }
 
-
-.cabecera { border-style: dotted;
-			width: 100%;
-			margin: auto;
-         background-color:#95C11E;
-         position:fixed;
+.cabecera { 
+    width: 100%;
+    margin: auto;
+    background-color:black;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:99;
+    color: white;
+    text-align: center;
 }
-.logo{	width:10%;
-   	 	float: left;
-  			margin:1.5%;
+.logo{	
+    width:10%;
+    float: left;
+    margin:1.5%;
 }
-
-
-.titulo { 
-			font-family:"helvetica";
-    		font-size: 6vw;
-   		line-height: 0;
-
-			
-}
-
-.cuerpo { 
-			width: 100%;
-         position:absolute;
-         top:9%;
+.titulos { 
+    font-family:"helvetica";
+    font-size: 6vw;
+    line-height: 0;
 }
 
-.imagen {width: 100%;
-			display:block;
+.cuerpo{width: 100%; 
+        height: 500px;   
+        background-color: red;
+        margin: 0 auto;
+        
+}
+
+
+
+
+#boton1{
+    background-image:url("../img/horizontal1.png");   
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 100%;
+    height:42%;
 
 }
 
+#boton2{
+    background-image:url("../img/horizontal2.png");   
+    height: 34%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 100%;
+
+}
+#boton3{
+    background-image:url("../img/horizontal3.png");   
+    height: 34%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 100%;
+
+}
