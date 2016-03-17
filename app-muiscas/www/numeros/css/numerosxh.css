@@ -27,3 +27,23 @@ body{
     text-align:center;
     padding-top:2%;
 }
+
+
+.cuerpo{width: 100%; 
+        margin: 0 auto;
+        margin-top: 8%;
+}
+
+
+
+
+.vertical img {width: 28%;
+                height: auto;
+               display:block;
+               float:left;
+               margin: auto;
+
+}
+
+
+.horizontal{display: none;}

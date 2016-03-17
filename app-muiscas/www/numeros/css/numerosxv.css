@@ -26,37 +26,22 @@ body{
 }
 
 .cuerpo{width: 100%; 
-        height: 500px;   
-        background-color: red;
         margin: 0 auto;
+        margin-top: 14%;
+
         
 }
 
-
-
-
-#boton1{
-    background-image:url("../img/horizontal1.png");   
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 100%;
-    height:42%;
+.horizontal{
+    
+        
 
 }
 
-#boton2{
-    background-image:url("../img/horizontal2.png");   
-    height: 34%;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 100%;
+.horizontal img {width: 100%;
+                     display:block
 
 }
-#boton3{
-    background-image:url("../img/horizontal3.png");   
-    height: 34%;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 100%;
-
+.vertical{
+            display: none;
 }

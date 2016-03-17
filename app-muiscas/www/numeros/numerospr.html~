@@ -31,10 +31,12 @@
             <p class = "titulo">LOS NUMEROS</p>
         </div>
         <div class= "cuerpo">
-          <div id="boton1"> </div>
-          <div id="boton2"> </div>
-          <div id="boton3"> </div>
-        
+          <div class="horizontal" > <img src="img/horizontal1.png"> </div>
+          <div class="horizontal" > <img src="img/horizontal2.png"> </div>
+        	 <div class="horizontal" > <img src="img/horizontal3.png"> </div>
+          <div class="vertical" > <img src="img/horizontal1.png"> </div>
+          <div class="vertical" > <img src="img/horizontal2.png"> </div>
+        	 <div class="vertical" > <img src="img/horizontal3.png"> </div>
         </div>    
     </body>
 </html>
