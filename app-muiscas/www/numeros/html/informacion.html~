@@ -27,15 +27,7 @@
             <li class="menuli"><a href="../informacion/informacion.html">Información</a></li>
         </ul>
     </nav>
-
-       
-
-        <div  class= "cabecera">
-            <img class="logo" onclick="menu('#95C11E')" src="../../img/menu.svg">
-            <p class = "titulo">Numeros Menu 1 a 10</p>
-        </div>
-        
-<!-- fin del menu    --> 
+<!-- fin del menu    -->
 <body>
 <div class="cont1">
     <div class="boton"> 

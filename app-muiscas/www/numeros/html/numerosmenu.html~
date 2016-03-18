@@ -12,6 +12,8 @@
         <script src="../../js/index.js" type="text/javascript"></script>
         <title>Numeros Menu 1 a 10</title>
     </head>
+   
+
     <body>
 <!--  menu    -->
 <nav id="menu" class="invisible">
@@ -26,6 +28,8 @@
         </ul>
     </nav>
 <!-- fin del menu    -->
+       
+
         <div  class= "cabecera">
             <img class="logo" onclick="menu('#95C11E')" src="../../img/menu.svg">
             <p class = "titulo">Numeros Menu 1 a 10</p>
