@@ -6,11 +6,11 @@
                     <!-- Esté es el css del menu -->
         <link rel="stylesheet" type="text/css" href="../css/menu.css">
                     <!-- Esté es el css vertical -->
-        <link rel="stylesheet" media="all and (orientation:portrait)" type="text/css" href="css/saludosxv.css">
+        <link rel="stylesheet" media="all and (orientation:portrait)" type="text/css" href="css/numerosxv.css">
                     <!-- Este es el css horizontal -->
-        <link rel="stylesheet" media="all and (orientation:landscape)" type="text/css" href="css/saludosxh.css">
+        <link rel="stylesheet" media="all and (orientation:landscape)" type="text/css" href="css/numerosxh.css">
         <script src="../js/index.js" type="text/javascript"></script>
-        <title>Saludos</title>
+        <title>Numeros</title>
     </head>
     <body>
 <!--  menu    -->
@@ -19,18 +19,12 @@
             <li class="titulomenu">Cartilla<br>Muysccubun<img onclick="menuc()" class="menuatras" src="../img/atrasmenu.svg"/></li>
             <li class="menuli"><a href="../index.html"> Inicio</a></li>
             <li class="menuli"><a href="../SaludosyPresentacion/saludos.html"> Saludos y presentación</a></li>
-            <li class="menuli"><a href="../numeros/numeros.html"> Numeros</a></li>
-            <li class="menuli"><a href="../mercado/mercado.html"> Mercado</a></li>
-            <li class="menuli"><a href="../rondadecolores/rondadecolores.html"> Ronda de colores</a></li>
-            <li class="menuli"><a href="../informacion/informacion.html"> Información</a></li>
+            <li class="menuli"><a href="../numeros/numeros.html">Numeros</a></li>
+            <li class="menuli"><a href="../mercado/mercado.html">Mercado</a></li>
+            <li class="menuli"><a href="../rondadecolores/rondadecolores.html">Ronda de colores</a></li>
+            <li class="menuli"><a href="../informacion/informacion.html">Información</a></li>
         </ul>
     </nav>
 <!-- fin del menu    -->
-        <div  class= "cabecera">
-            <img class="logo" onclick="menu('#1AB1E1')" src="../img/menu.svg">
-            <p class = "titulo">Chat Myusscubun</p>
-        </div>
-<div>Esta es una formula que expresa resaludacion</div>
-        
-    </body>
+</body>>
 </html>

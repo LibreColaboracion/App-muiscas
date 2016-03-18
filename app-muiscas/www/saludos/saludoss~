@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, maximum-scale=2">
                     <!-- Esté es el css del menu -->
-        <link rel="stylesheet" type="text/css" href="../../css/menu.css">
+        <link rel="stylesheet" type="text/css" href="../css/menu.css">
                     <!-- Esté es el css vertical -->
-        <link rel="stylesheet" media="all and (orientation:portrait)" type="text/css" href="../css/saludosxv.css">
+        <link rel="stylesheet" media="all and (orientation:portrait)" type="text/css" href="css/saludosxv.css">
                     <!-- Este es el css horizontal -->
-        <link rel="stylesheet" media="all and (orientation:landscape)" type="text/css" href="../css/saludosxh.css">
+        <link rel="stylesheet" media="all and (orientation:landscape)" type="text/css" href="css/saludosxh.css">
         <script src="../js/index.js" type="text/javascript"></script>
         <title>Saludos</title>
     </head>
@@ -32,27 +32,9 @@
         </div>
         <div class= "cuerpo chat">
 
-<div><img src="../imagenes/sol.png" alt=""></div>
-<div>Lista de saludos y respuestas
 
-<div>Choá:xxxxxxxxxxxxxxxxxxxxxxxx</div>
-<div>Chogue:Xxxxxxxxxxxxxxxxxxxxxxx</div>
-<div>Chibu:xxxxxxxxxxxxxxxxxxxxxxx</div>
-<div>Guaza:xxxxxxxxxxxxxxxxxxxxxx</div>
-<div>Yesgua:xxxxxxxxxxxxxxxxxxxxxxxx</div>
-<div>Tyba:xxxxxxxxxxxxxxxxxxxxxxxx</div>
 
-<div>Chogue sua:xxxxxxxxxxxxxxxxxxxxxxxx</div>
 
-<div>Chogue sua mena:xxxxxxxxxxxxxxxxxxxxxxxx</div>
-<div>Chogue sua meca:xxxxxxxxxxxxxxxxxxxxxxxx</div>
-<div>Chogue za:xxxxxxxxxxxxxxxxxxxxxxxx</div>
-<div>Sua choc aguenua?:xxxxxxxxxxxxxxxxxxxxxxxx</div>
-<div>Sua choc aguene:xxxxxxxxxxxxxxxxxxxxxxxx</div>
-<div>Za choc aguenua?:xxxxxxxxxxxxxxxxxxxxxxxx</div>
-<div>Za choc aguene:xxxxxxxxxxxxxxxxxxxxxxxx</div>
-
- </div>
         
     </body>
 </html>

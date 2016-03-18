@@ -32,7 +32,7 @@
 <body>
 <div class="cont1">
     <div class="boton"> 
-        <a href="../unite1.html">
+        <a href="unite1.html">
             <img class="boton" src="../../img/numerosboton.png">
     <script type="text/javascript" src="../../js/numeros.js" async="async"></script>
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="../../css/numeros.css">
+    <link rel="stylesheet" type="text/css" href="../css/numeros.css">
     <script type="text/javascript" src="../../js/numeros.js" async="async"></script>
 </head>
 <body>
