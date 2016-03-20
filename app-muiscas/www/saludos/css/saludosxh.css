@@ -26,6 +26,9 @@ body{
     top:10%;
     overflow:auto;
 }
+.chat{ 
+    margin: 1% 1% 1% 1%;
+}
 .contizquierda, .contderecha{
     display:flex;
     margin:4% 2% 4% 2%;
@@ -42,23 +45,26 @@ body{
     width:10%;
 }
 .burbuja{
+    width: 70%;
     border-radius: 10px 10px;
     position:relative;
-    right:0;
++   right:0
 }
 .izquierda{
-    background-color:#ffb380;
-    border: 0.1em solid #ffb380;
+    background-color:#ffff00;
+    border: 0.1em solid #ffff00;
 }
 .derecha{
-    background-color:#99cc33;
-    border: 0.1em solid #99cc33;
+    background-color:#ffa726;
+    border: 0.1em solid #ffa726;
 }
 .contexto{
-    width:100%;
+    width:90%;
     margin-top:3%;
 }
 .texto{
+    font-family:"helvetica";
+    font-size: 4vw;
     width:99%;
 }
 .imgaudio{
