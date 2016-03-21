@@ -13,19 +13,17 @@ body{
 .logo{
     width:7.5%;
     float: left;
-    margin:2%;
+    margin:3%;
 }
 .titulo{ 
     font-family:"helvetica";
     font-size: 6vw;
     line-height: 0;			
 }
-
 .cuerpo{ 	
     width: 100%;
     position:absolute;
-    top:5%;
-    left:0;
+    top:6%;
 }
 .chat{ 
     margin: 1% 1% 1% 1%;
@@ -48,8 +46,6 @@ body{
 .burbuja{
     width: 70%;
     border-radius: 10px 10px;
-    position:relative;
-+   right:0;
 }
 .izquierda{
     background-color:#ffff00;

@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.cabecera { 
+    width: 100%;
+    background-color:#1AB1E1;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:99;
+}
+.atras{
+    width:5vw;
+    height:100%;
+    float: left;
+    margin:1%;
+}
+.logopersona{
+    width:8vw;
+    float: left;
+    margin:1% 1% 1% -1%;
+}
+.titulo{
+    font-family:"helvetica";
+    line-height:0;
+    font-size: 4vw;
+}
+.subtitulo{
+    font-family:"helvetica";
+    font-size: 2.5vw;
+    line-height:0;
+    text-align: right;
+    margin-right: 2%;
+}
+.cuerpo{
+    position:absolute;
+    top:15%;
+}
+.tamano{
+    width:15%;
+}
+.mediodia{
+    left:50%;
+}
