@@ -1,6 +1,7 @@
 body{
      margin:0;
      padding:0;
+    overflow:hidden;
 }
 .cabecera {
     background-color:#1AB1E1;
@@ -22,11 +23,25 @@ body{
 }
 .cuerpo{
     width:100%;
+    height: 84%;
+    overflow: auto;
     position:absolute;
     top:15%;
 }
-.chat{ 
-    margin: 1% 1% 1% 1%;
+.ejercicio{
+    width:100%;
+    height: 84%;
+    background-color:pink;
+    position:absolute;
+    top:15%;
+}
+.arriba{
+    top:-200%;
+    transition:all 2s;
+}
+.abajo{
+    top:100%;
+    transition:all 2s;
 }
 .contizquierda, .contderecha{
     display:flex;
@@ -66,4 +81,21 @@ body{
 }
 .imgaudio{
     width:15%;
+}
+.cambio{
+    width: 70%;
+    background-color:#3f51b5;
+    border: 0.1em solid #3f51b5;
+    box-shadow: 1.5vh 0.5vh 2vh #999;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%)
+}
+.cambioejer{
+    color: white;
+    text-align: center;
+    font-family: "helvetica";
+    font-size: 6vh;
+    font-weight: 800;
+    line-height: 0;
 }

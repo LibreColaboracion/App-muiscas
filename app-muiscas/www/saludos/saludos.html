@@ -12,7 +12,7 @@
         <script src="../js/index.js" type="text/javascript"></script>
         <title>Saludos</title>
     </head>
-    <body>
+<body>
 <!--  menu    -->
 <nav id="menu" class="invisible">
     <ul>
@@ -30,7 +30,7 @@
     <p class = "titulo">Chat Myusscubun</p>
 </div>
 <!-- fin del menu    -->
-<div class= "cuerpo">
+<div id="principal" class="cuerpo">
 <!--   Mi propuesta de burbujas       -->
     <div class="contizquierda"> <!--mi borbuja izquierda-->
         <img class="caras" src="imagenes/chathombre.svg">
@@ -133,6 +133,17 @@
             </div>
             <img class="imgaudio" src="../img/caracola.png">
         </div>
+    </div>
+    <div class="cambio">
+        <p onclick="cambiarpantalla('principal','cuerpo','secundario','ejercicio')" class="cambioejer">Ejercicios</p>
+    </div>
+</div>
+<div id="secundario" class="ejercicio abajo">
+<br>
+    <div class="cambio">
+        <p class="enunciado">Responde la conversación en el chat</p>
+        <p onclick="cambiarpantalla('secundario','ejercicio','principal','cuerpo')">Atras</p>
+        <p onclick="comenzar()">Comenzar<p>
     </div>
 </div>
 </body>

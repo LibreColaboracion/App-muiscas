@@ -33,7 +33,7 @@ nav {
     background:black;
     overflow:auto;
     transition:all 0.2s;
-    z-index:97;
+    z-index:100;
 }
 .invisible{
     left:-100%;
