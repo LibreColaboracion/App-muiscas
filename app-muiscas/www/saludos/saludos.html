@@ -10,6 +10,7 @@
                     <!-- Este es el css horizontal -->
         <link rel="stylesheet" media="all and (orientation:landscape)" type="text/css" href="css/saludosxh.css">
         <script src="../js/index.js" type="text/javascript"></script>
+        <script src="js/saludos.js" type="text/javascript"></script>
         <title>Saludos</title>
     </head>
 <body>
@@ -140,10 +141,22 @@
 </div>
 <div id="secundario" class="ejercicio abajo">
 <br>
-    <div class="cambio">
+    <div id="enun" class="cambio">
         <p class="enunciado">Responde la conversación en el chat</p>
-        <p onclick="cambiarpantalla('secundario','ejercicio','principal','cuerpo')">Atras</p>
-        <p onclick="comenzar()">Comenzar<p>
+        <p class="opciones"  onclick="cambiarpantalla('secundario','ejercicio','principal','cuerpo')">Atras</p>
+        <p class="opciones" onclick="comenzar('ejercicio1','contizquierda','enun')">Comenzar<p>
+    </div>
+    <div id="ejercicio1" class="contizquierda invisible"> <!--mi borbuja izquierda-->
+        <img class="caras" src="imagenes/chathombre.svg">
+        <div class="burbuja izquierda">
+            <div class="contexto">
+                <p class="texto">Choá</p>
+            </div>
+        </div>
+    </div>
+    <div id="sub" class="subministrar">
+        <input id="hola" onkeyup="escribir('hola','chogue',event)" class="inputexto" type="text"></textarea>
+        <p onclick="escribir('hola','chogue',event)" class="enter">&#8592;<p>
     </div>
 </div>
 </body>
