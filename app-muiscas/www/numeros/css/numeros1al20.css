@@ -1,0 +1,35 @@
+body{
+ 
+
+}
+
+.cabecera { 
+    width: 100%;
+    margin: auto;
+    background-color:black;
+    position:fixed;
+    left:0;
+    top:0;
+    color: white;
+    text-align: center;
+}
+.logo{	
+    width:10%;
+    float: left;
+    margin:1.5%;
+}
+.titulos { 
+    font-family:"helvetica";
+    font-size: 6vw;
+    line-height: 0;
+}
+
+.cuerpo{width: 100%; 
+        margin: 0 auto;
+        margin-top: 14%;
+
+}        
+.numeros img{width: 30%;
+                
+
+}

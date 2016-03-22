@@ -1,11 +1,9 @@
-//  Esta función es para mostrar la escritura del umero su fonetica y escuchar su audio
-function digito(nombre, fonetique, clase, audio){
+//  Esta función es para mostrar la escritura y escuchar su audio
+function digito(nombre,audio){
     var numero = document.getElementById("h1js");
-    var fonetica = document.getElementById("h3js");
     var au = document.getElementById(audio);
         numero.innerHTML=nombre;
-        numero.className=clase;
-        fonetica.innerHTML= fonetique;
+//         numero.className=clase;
         au.play();
 }
 // Esta función es para mostrar los ejercicios aleatoriamente 

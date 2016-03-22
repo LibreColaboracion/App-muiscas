@@ -10,12 +10,12 @@
     margin-top:-20px;
 }
 .titulomenu{
-    color:green;
+    color:#ffffff;
     font-weight: bold;
     font-size:1.5em;
     display:block;
     padding:10px;
-    background-color: black;
+    background-image:url("../img/fondomenu.svg");
     border-bottom:0.3em solid rgba(255,255,255, 0.2);
 }
 .menuli {

@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: pink;
+}
+.cabecera { 
+    width: 100%;
+    height:9vw;
+    margin: auto;
+    background-color:red;
+    position:fixed;
+    left:0;
+    top:0;
+    
+}
+.logo{
+    width:5%;
+    float: left;
+    margin:1.5%;
+}
+.titulos { 
+    font-weight:bolder;
+    font-family:"helvetica";
+    font-size: 4vw;
+    text-align:center;
+    padding-top:2%;
+}
+
+
+.cuerpo{width: 100%; 
+        margin: 0 auto;
+        margin-top: 8%;
+}
+
+
+
+
+.vertical img {width: 28%;
+                height: auto;
+               display:block;
+               float:left;
+               margin: auto;
+
+}
+
+
+.horizontal{display: none;}

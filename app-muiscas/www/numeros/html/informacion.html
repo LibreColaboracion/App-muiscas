@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, maximum-scale=2">
+                    <!-- Esté es el css del menu -->
+        <link rel="stylesheet" type="text/css" href="../../css/menu.css">
+                    <!-- Esté es el css vertical -->
+        <link rel="stylesheet" media="all and (orientation:portrait)" type="text/css" href="../css/numerosxv.css">
+                    <!-- Este es el css horizontal -->
+        <link rel="stylesheet" media="all and (orientation:landscape)" type="text/css" href="../css/numerosxh.css">
+        <script src="../../js/index.js" type="text/javascript"></script>
+        <title>Numeros Menu 1 a 10</title>
+    </head>
+   
+
+    <body>
+<!--  menu    -->
+<nav id="menu" class="invisible">
+        <ul>
+            <li class="titulomenu">Cartilla<br>Muysccubun<img onclick="menuc()" class="menuatras" src="../../img/atrasmenu.svg"/></li>
+            <li class="menuli"><a href="../../index.html"> Inicio</a></li>
+            <li class="menuli"><a href="../../SaludosyPresentacion/saludos.html"> Saludos y presentación</a></li>
+            <li class="menuli"><a href="../numeros/numeros.html">Numeros</a></li>
+            <li class="menuli"><a href="../mercado/mercado.html">Mercado</a></li>
+            <li class="menuli"><a href="../rondadecolores/rondadecolores.html">Ronda de colores</a></li>
+            <li class="menuli"><a href="../informacion/informacion.html">Información</a></li>
+        </ul>
+    </nav>
+
+       
+
+        <div  class= "cabecera">
+            <img class="logo" onclick="menu('#95C11E')" src="../../img/menu.svg">
+            <p class = "titulo">Numeros Menu 1 a 10</p>
+        </div>
+        
+<!-- fin del menu    --> 
+<body>
+<div class="cont1">
+    <div class="boton"> 
+        <a href="unite1.html">
+            <img class="boton" src="../imagenes/iconos/atras.svg">
+        </a> 
+    </div>
+    <h1 id="h1js"> </h1>
+</div>
+<div class="api1">
+    <h3 class="referenteapi1">API:</h3><h3 class="transcripcion1" id="h3js"> </h3>
+</div>
+<div class="numeros">
+    <img id="a0" src="../imagenes/chiffres/0.png" onclick="digito('Zéro','/zero/','numero1','pista0')">
+    <img id="a1" src="../imagenes/chiffres/1.png" onclick="digito('Un','/œ̃/','numero1','pista1')">
+    <img id="a2" src="../imagenes/chiffres/2.png" onclick="digito('Deux','/dø/','numero1','pista2')"> 
+    <img id="a3" src="../imagenes/chiffres/3.png" onclick="digito('Trois','/trwa/','numero1','pista3')">
+    <img id="a4" src="../imagenes/chiffres/4.png" onclick="digito('Quatre','/katr/','numero1','pista4')">
+    <img id="a5" src="../imagenes/chiffres/5.png" onclick="digito('Cinq','/sɛ̃k/','numero1','pista5')">
+    <img id="a6" src="../imagenes/chiffres/6.png" onclick="digito('Six','/siz/','numero1','pista6')"> 
+    <img id="a7" src="../imagenes/chiffres/7.png" onclick="digito('Sept','/sɛt/','numero1','pista7')"> 
+    <img id="a8" src="../imagenes/chiffres/8.png" onclick="digito('Huit','/ɥit/','numero1','pista8')"> 
+    <img id="a9" src="../imagenes/chiffres/9.png" onclick="digito('Neuf','/nœf/','numero1','pista9')"> 
+    <img id="a10" src="../imagenes/chiffres/10.png" onclick="digito('Dix','/dis/','numero1','pista10')">
+    <img id="a11" src="../imagenes/chiffres/11.png" onclick="digito('Onze','/ɔ̃z/','numero1','pista11')">
+    <img id="a12" src="../imagenes/chiffres/12.png" onclick="digito('Douze','/duz/','numero1','pista12')">
+    <img id="a13" src="../imagenes/chiffres/13.png" onclick="digito('Treize','/trɛz/','numero1','pista13')">
+    <img id="a14" src="../imagenes/chiffres/14.png" onclick="digito('Quatorze','/katɔrz/','numero1','pista14')">
+    <img id="a15" src="../imagenes/chiffres/15.png" onclick="digito('Quinze','/kɛ̃z/','numero1','pista15')">
+    <img id="a16" src="../imagenes/chiffres/16.png" onclick="digito('Seize','/sɛz/','numero1','pista16')">
+    <img id="a17" src="../imagenes/chiffres/17.png" onclick="digito('Dix-sept','/disɛt/','numero1','pista17')">
+    <img id="a18" src="../imagenes/chiffres/18.png" onclick="digito('Dix-huit','/dizɥit/','numero1','pista18')">
+    <img id="a19" src="../imagenes/chiffres/19.png" onclick="digito('Dix-neuf','/diznœf/','numero1','pista19')">
+    <img id="a20" src="../imagenes/chiffres/20.png" onclick="digito('Vingt','/vɛ̃/','numero1','pista20')">
+</div>
+<audio id="pista0" src="../audio/zero.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista1" src="../audio/un.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista2" src="../audio/deux.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista3" src="../audio/trois.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista4" src="../audio/quatre.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista5" src="../audio/cinq.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista6" src="../audio/six.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista7" src="../audio/sept.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista8" src="../audio/huit.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista9" src="../audio/neuf.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista10" src="../audio/dix.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista11" src="../audio/onze.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista12" src="../audio/douze.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista13" src="../audio/treize.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista14" src="../audio/quatorze.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista15" src="../audio/quinze.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista16" src="../audio/seize.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista17" src="../audio/dix-sept.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista18" src="../audio/dix-huit.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista19" src="../audio/dix-neuf.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista20" src="../audio/vingt.ogg" preload="auto" type="audio/ogg"></audio>
+</body>
+</html>
