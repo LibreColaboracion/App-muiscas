@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -43,7 +43,7 @@
         </div>
     </div>
         <!--mi borbuja derecha-->
-    <div class="contderecha"> 
+    <div class="contderecha">
         <div class="burbuja derecha">
             <img class="imgaudio" src="../img/caracola.png">
                 <div class="contexto">
@@ -80,7 +80,7 @@
         </div>
     </div>
         <!--mi borbuja derecha-->
-    <div class="contderecha"> 
+    <div class="contderecha">
         <div class="burbuja derecha">
             <img class="imgaudio" src="../img/caracola.png">
             <div class="contexto">
@@ -104,7 +104,7 @@
             <div class="contexto">
                 <a class="texto" href="#">Juan Garibello gue ahyca</a>
             </div>
-        </div>            
+        </div>
         <img class="caras" src="imagenes/chatmujer.svg">
     </div>
     <div class="contizquierda"> <!--mi borbuja izquierda-->
@@ -117,7 +117,7 @@
         </div>
     </div>
                 <!--mi borbuja derecha-->
-    <div class="contderecha"> 
+    <div class="contderecha">
         <div class="burbuja derecha">
             <img class="imgaudio" src="../img/caracola.png">
             <div class="contexto">
@@ -142,21 +142,13 @@
 <div id="secundario" class="ejercicio abajo">
 <br>
     <div id="enun" class="cambio">
-        <p class="enunciado">Responde la conversación en el chat</p>
+        <p class="enunciado">Responde la conversación en el chat, solo puedes equivocarte tres veces</p>
         <p class="opciones"  onclick="cambiarpantalla('secundario','ejercicio','principal','cuerpo')">Atras</p>
-        <p class="opciones" onclick="comenzar('ejercicio1','contizquierda','enun')">Comenzar<p>
-    </div>
-    <div id="ejercicio1" class="contizquierda invisible"> <!--mi borbuja izquierda-->
-        <img class="caras" src="imagenes/chathombre.svg">
-        <div class="burbuja izquierda">
-            <div class="contexto">
-                <p class="texto">Choá</p>
-            </div>
-        </div>
+        <p class="opciones" onclick="comenzar('enun')">Comenzar<p>
     </div>
     <div id="sub" class="subministrar">
-        <input id="hola" onkeyup="escribir('hola','chogue',event)" class="inputexto" type="text"></textarea>
-        <p onclick="escribir('hola','chogue',event)" class="enter">&#8592;<p>
+        <input id="getexto" onkeyup="dialogo(event)" class="inputexto" type="text"></textarea>
+        <p id="boton" onclick="dialogo(event)" class="enter">&#8592;<p>
     </div>
 </div>
 </body>
