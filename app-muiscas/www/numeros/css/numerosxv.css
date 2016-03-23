@@ -1,17 +1,13 @@
-body{
- 
-
-}
-
 .cabecera { 
     width: 100%;
-    margin: auto;
-    background-color:black;
+    background-color:red;
     position:fixed;
     left:0;
     top:0;
+    z-index:99;
     color: white;
     text-align: center;
+    
 }
 .logo{	
     width:10%;
@@ -23,24 +19,18 @@ body{
     font-size: 6vw;
     line-height: 0;
 }
-
-.cuerpo{width: 100%; 
-        margin: 0 auto;
-        margin-top: 14%;
-
-        
+.cuerpo{
+    width: 100%;
+    height: 88%;
+    position: absolute;
+    top:10%;
+    left:0;
+    z-index: 98;
 }
-
 .horizontal{
-    
-        
-
-}
-
-.horizontal img {width: 100%;
-                     display:block
-
+    width:100%;
+    display:block
 }
 .vertical{
-            display: none;
+    display: none;
 }
