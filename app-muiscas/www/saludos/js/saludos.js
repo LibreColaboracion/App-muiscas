@@ -1,32 +1,36 @@
 ﻿// este es el orden de las preguntas
-var preguntas = ['choá','Muaz choa umzone','Zehica Carlos Fiquitiva gue nga cha Suba gue','Ipquo ahyca?','Ipquá zeguaque nzinga','Mis ichosqua'];
+var preguntas1 = ['choá','Muaz choa umzone','Zehica Carlos Fiquitiva gue nga cha Suba gue','Ipquo ahyca?','Ipquá zeguaque nzinga','Mis ichosqua'];
+
 // este es el orden de las respuestas
-var respuestas= ['chogue','ehe','zehica carlos fiquitiva gue nga cha suba gue','juan garibello gue ahyca','ipqua, mis ichosqua'];
+var respuestas1 = ['chogue','ehe','zehica carlos fiquitiva gue nga cha suba gue','juan garibello gue ahyca','ipqua, mis ichosqua'];
+
 var negativa = 0; /*Lleva la cantidad de errores*/
 var numpregunta=0; /*Lleva el avance en las preguntas*/
+
 // Cominza el ejercicio
-function comenzar(id){
+function comenzar(id,preg){
     var input = document.getElementById("sub");
     var cuerpo = document.getElementById("secundario");
     var borrar = document.getElementById(id);
     borrar.style.display = "none";
     input.style.display ="flex";
-    cuerpo.innerHTML +='<div class="contizquierda"><img class="caras" src="imagenes/chathombre.svg"><div class="burbuja izquierda"><div class="contexto"><p class="texto">'+preguntas[numpregunta]+'</p></div></div>';
+    cuerpo.innerHTML +='<div class="contizquierda"><img class="caras" src="imagenes/chathombre.svg"><div class="burbuja izquierda"><div class="contexto"><p class="texto">'+preg[numpregunta]+'</p></div></div>';
 }
+
 // Para el ejercicio del dialogo
-function dialogo(event) {
+function dialogo(pregun,respu,event) {
     var enter = event.keyCode;
     var input1 = document.getElementById("sub");
     var val = document.getElementById('getexto').value;
     var cuerpo=document.getElementById("secundario");
     var valor = val.toLowerCase();
-    var respuesta = respuestas[numpregunta];
+    var respuesta = respu[numpregunta];
     if(enter == 13 | enter == undefined){
         console.log("oui",respuesta)
 	if(valor == respuesta){
             cuerpo.innerHTML +='<div class="contderecha"><div class="burbuja derecha"><div class="contexto"><p class="texto">'+respuesta+'</p></div></div><img class="caras" src="imagenes/chatmujer.svg"></div>';
             numpregunta++;
-            cuerpo.innerHTML +='<div class="contizquierda"><img class="caras" src="imagenes/chathombre.svg"><div class="burbuja izquierda"><div class="contexto"><p class="texto">'+preguntas[numpregunta]+'</p></div></div>';
+            cuerpo.innerHTML +='<div class="contizquierda"><img class="caras" src="imagenes/chathombre.svg"><div class="burbuja izquierda"><div class="contexto"><p class="texto">'+pregun[numpregunta]+'</p></div></div>';
             console.log(respuesta);
         }else{
             negativa++;

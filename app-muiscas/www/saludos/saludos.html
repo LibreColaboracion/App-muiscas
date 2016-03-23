@@ -135,19 +135,23 @@
         </div>
     </div>
     <div class="cambio">
+<!-- La funcion cambiarpantalla permite cambiar de pantalla primero va el id y la clase de la pantalla que desaparece y depues va el id y la class de la pantalla que aparece-->
         <p onclick="cambiarpantalla('principal','cuerpo','secundario','ejercicio')" class="cambioejer">Ejercicios</p>
     </div>
 </div>
+<!-- Aqui empieza la segunda pantalla-->
 <div id="secundario" class="ejercicio abajo">
 <br>
     <div id="enun" class="cambio">
         <p class="enunciado">Responde la conversación en el chat, solo puedes equivocarte tres veces</p>
         <p class="opciones"  onclick="cambiarpantalla('secundario','ejercicio','principal','cuerpo')">Atras</p>
-        <p class="opciones" onclick="comenzar('enun')">Comenzar<p>
+<!--    la funcion comenzar inicia los ejercicios pide dos cosas: el elemento enun que desaparese, ahí va el enunciado y esta en el html, y el primer grupo de preguntas, este no va en comillas por que esta en el js-->
+        <p class="opciones" onclick="comenzar('enun',preguntas1)">Comenzar<p>
     </div>
     <div id="sub" class="subministrar">
-        <input id="getexto" onkeyup="dialogo(event)" class="inputexto" type="text"></textarea>
-        <p id="boton" onclick="dialogo(event)" class="enter">&#8592;<p>
+        <input id="getexto" onkeyup="dialogo(preguntas1,respuestas1,event)" class="inputexto" type="text"></textarea>
+<!--en la funcion dialogo se define el grupo de preguntas y respuestas a usar estas no van en commillas simples por que son del javascript-->
+        <p id="boton" onclick="dialogo(preguntas1,respuestas1,event)" class="enter">&#8592;<p>
     </div>
 </div>
 </body>
