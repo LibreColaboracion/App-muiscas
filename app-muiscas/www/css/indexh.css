@@ -1,11 +1,9 @@
-*{
+body{
+    background-color: pink;
     margin:0;
     padding:0;
 }
-body{
-    background-color: pink;
-}
-.cabecera { 
+.cabecera {
     width: 100%;
     height:9vw;
     margin: auto;
@@ -15,45 +13,46 @@ body{
     top:0;
     z-index:99;
 }
-.logo{
-    width:5%;
-    float: left;
-    margin:1.5%;
-}
-.titulos { 
+.titulos {
     font-weight:bolder;
     font-family:"helvetica";
     font-size: 4vw;
     text-align:center;
-    padding-top:2%;
+    line-height:0;
 }
 .cuerpo {
-    width: 100%;
+    width: 99%;
+    height: 75%;
     position:absolute;
     left:0;
-    top:9vw;
-    overflow:hidden;
-    
+    top:10vw;
+    margin: 0.5%;
 }
 .botones{
-    padding:2% 7.5% 2% 7.5%;
+    width: 10%;
+    position:absolute;
 }
 .derechos{
-    float: left;
+    width: 50%;
+    right: 0;
 }
 .izquierdos{
-    float: right;
+    width: 50%;
+    left: 0;
 }
-.centros{
-    position:absolute;
-    left: 32.5%;
-    top:25%;
+.abajo{
+    bottom:20%;
+}
+.arriba{
+    top: 0;
 }
 .icono{
     width:20vw;
+    margin: auto;
+    position:absolute;
+    left:50%;
+    transform: translate(-50%,0%);
 }
 .textoicono{
-    text-align:center;
-    text-decoration:none;
-    font-size:2vw;
+    text-decoration: none;
 }
