@@ -1,8 +1,7 @@
 ﻿// este es el orden de las preguntas
-var preguntas1 = ['choá','Muaz choa umzone','Zehica Carlos Fiquitiva gue nga cha Suba gue','Ipquo ahyca?','Ipquá zeguaque nzinga','Mis ichosqua'];
+var  preguntas1 = ['mi _______ es Carlos','choá','Muaz choa umzone','Zehica Carlos Fiquitiva gue nga cha Suba gue','Ipquo ahyca?','Ipquá zeguaque nzinga','Mis ichosqua'];
 
-// este es el orden de las respuestas
-var respuestas1 = ['chogue','ehe','zehica carlos fiquitiva gue nga cha suba gue','juan garibello gue ahyca','ipqua, mis ichosqua'];
+var respuestas1 = ['nombre','chogue','ehe','zehica carlos fiquitiva gue nga cha suba gue','juan garibello gue ahyca','ipqua, mis ichosqua'];
 
 var negativa = 0; /*Lleva la cantidad de errores*/
 var numpregunta=0; /*Lleva el avance en las preguntas*/

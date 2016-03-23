@@ -135,7 +135,7 @@
         </div>
     </div>
     <div class="cambio">
-<!-- La funcion cambiarpantalla permite cambiar de pantalla primero va el id y la clase de la pantalla que desaparece y depues va el id y la class de la pantalla que aparece-->
+<!-- La funcion cambiarpantalla permite cambiar de pantalla primero va el id y la clase de la pantalla que desaparece y depues va el id y la class de la pantalla que aparece, van entre comillas simples por que estan en el html-->
         <p onclick="cambiarpantalla('principal','cuerpo','secundario','ejercicio')" class="cambioejer">Ejercicios</p>
     </div>
 </div>
@@ -145,7 +145,7 @@
     <div id="enun" class="cambio">
         <p class="enunciado">Responde la conversación en el chat, solo puedes equivocarte tres veces</p>
         <p class="opciones"  onclick="cambiarpantalla('secundario','ejercicio','principal','cuerpo')">Atras</p>
-<!--    la funcion comenzar inicia los ejercicios pide dos cosas: el elemento enun que desaparese, ahí va el enunciado y esta en el html, y el primer grupo de preguntas, este no va en comillas por que esta en el js-->
+<!--    la funcion comenzar inicia los ejercicios pide dos cosas: el elemento con id enun que desaparese, ahí va el enunciado y esta en el html, y el primer grupo de preguntas, este no va en comillas por que esta en el js-->
         <p class="opciones" onclick="comenzar('enun',preguntas1)">Comenzar<p>
     </div>
     <div id="sub" class="subministrar">
