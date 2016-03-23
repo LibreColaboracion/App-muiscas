@@ -141,8 +141,8 @@ top: 30%;
 }
 .final{
     position:fixed;
-left:25%;
-top: 46%;
+left:5%;
+top: 55%;
 transition: all 3s;
 }
 .icono{
@@ -158,14 +158,12 @@ transition: all 3s;
     right: 2%;
 }
 .numeros{
-    width: 5%;
+    width: 15%;
     position: absolute;
-    left: 95%;
-    
+    left: 95%;   
 }
 .muysccubun{
-    width: 5%;
+    width: 8%;
     position: absolute;
-    left: 90%;
+    left: 95%;
 }
-hola
