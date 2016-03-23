@@ -157,3 +157,14 @@ transition: all 3s;
     bottom: 2%;
     right: 2%;
 }
+.numeros{
+    width: 5%;
+    position: absolute;
+    left: 95%;
+    
+}
+.muysccubun{
+    width: 5%;
+    position: absolute;
+    left: 90%;
+}
