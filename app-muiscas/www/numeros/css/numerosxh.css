@@ -1,10 +1,4 @@
-*{
-    margin:0;
-    padding:0;
-}
-body{
-    background-color: pink;
-}
+
 .cabecera { 
     width: 100%;
     height:9vw;
@@ -13,7 +7,7 @@ body{
     position:fixed;
     left:0;
     top:0;
-    
+    z-index:99;
 }
 .logo{
     width:5%;
@@ -27,23 +21,20 @@ body{
     text-align:center;
     padding-top:2%;
 }
-
-
-.cuerpo{width: 100%; 
-        margin: 0 auto;
-        margin-top: 8%;
+.cuerpo{
+    width: 100%; 
+    position: absolute;
+    top:9.4vw;
+    left:0.5vw;
+    z-index: 98;
 }
-
-
-
-
-.vertical img {width: 28%;
-                height: auto;
-               display:block;
-               float:left;
-               margin: auto;
-
+.vertical {
+    width: 33%;
+    height: auto;
+    display:block;
+    float:left;
+    margin: auto;
 }
-
-
-.horizontal{display: none;}
+.horizontal{
+    display: none;
+}

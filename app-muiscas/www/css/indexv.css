@@ -1,9 +1,7 @@
 body{
     background-color: #FDDD04;
-
 }
-
-.cabecera { 
+.cabecera {
     width: 100%;
     margin: auto;
     background-color:black;
@@ -14,48 +12,31 @@ body{
     color: white;
     text-align: center;
 }
-.logo{	
+.logo{
     width:10%;
     float: left;
     margin:1.5%;
 }
-.titulos { 
+.titulos {
     font-family:"helvetica";
     font-size: 6vw;
     line-height: 0;
 }
-
-.cuerpo { 
+.cuerpo {
     width: 100%;
     margin-top: 13%;
-
-
-
 }
-.botones{ width: 50%;
-   
-    
+.botones{
+    width: 50%;
 }
 .derechos{
-    
+
     float: left;
 }
 .izquierdos{
-    
+
     float: right;
 }
-
-.centros{
-    width: 100%;
-    text-align: center;
-    margin:0 auto;
-    
-	}
-
-.centros img {width: 50%;
-              vertical-align:middle;
-    }    
-
 .icono{
     width:100%;
     margin: auto;
