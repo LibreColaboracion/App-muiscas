@@ -1,0 +1,169 @@
+.gris{
+    filter: grayscale(0); /* Color */
+    filter: grayscale(0.5); /* 50% color */
+    filter: grayscale(1); /* Blanco y negro */
+}
+.tamaño{
+    width:300px;
+}
+.pequeña{
+    width:170px;
+    transition:all 4s;
+}
+.color{
+    transition:all 4s;
+}
+.transparente{
+     opacity: 0;
+     transition:all 4s;
+}
+.semitransparente{
+     opacity: 0.3;
+     transition:all 4s;
+}
+.aparecer{
+    opacity: 1;
+}
+/*Nuestros estilos*/
+.fondoestrofa1{
+    background-size: cover;
+    background-image: url(../imagenes/fondo1.jpg);
+    background-repeat: no-repeat;
+}
+.fondoestrofa2{
+    background-size: cover;
+    background-image: url(../imagenes/fondo2.jpg);
+    background-repeat: no-repeat;
+}
+.fondoestrofa3{
+    background-size: cover;
+    background-image: url(../imagenes/fondo3.jpg);
+    background-repeat: no-repeat;
+}
+.mitamaño{
+    width: 20%;
+}
+.cuchavivap{
+    position:absolute;
+    left: 25%;
+    top: 25%;
+    font-size: 10vw;
+    transition: all 5s;
+}
+.cuchavivazoom{
+    position: absolute;
+    left: 15%;
+    top:20%;
+    font-size: 15vw;
+    transition: all 5s;
+}
+.estrofa2{
+position:fixed;
+left:50%;
+top:70%;
+font-size:3vw;
+}
+.estrofa3{
+position:fixed;
+left:5%;
+top:10%;
+font-size:4vw;
+}
+.estrofa4{
+    color:#ff1744;
+position:fixed;
+left:40%;
+top:60%;
+font-size:3vw;
+}
+.estrofa5{
+position:fixed;
+left:5%;
+top:10%;
+font-size:3vw;
+}
+.estrofa6{
+position:fixed;
+left:13%;
+top:13%;
+font-size:3vw;
+}
+.estrofa7{
+position:fixed;
+left:15%;
+top:15%;
+font-size:3vw;
+}
+.estrofa9{
+position:fixed;
+left:´11%;
+top:12%;
+font-size:3vw;
+}
+.estrofa1{
+position:fixed;
+left:50%;
+top:70%;
+font-size:3vw;
+}
+.fondoestrofa6{
+    background-size: cover;
+    background-image: url(../imagenes/fondo6.png);
+    background-repeat: no-repeat;
+}
+.fondoestrofa7{
+    background-size: cover;
+    background-image: url(../imagenes/fondo7.png);
+    background-repeat: no-repeat;
+}
+.fondoestrofa4{
+    background-size: cover;
+    background-image: url(../imagenes/fondo4.png);
+    background-repeat: no-repeat;
+}
+.fondoestrofa5{
+    background-size: cover;
+    background-image: url(../imagenes/fondo5.png);
+    background-repeat: no-repeat;
+}
+.fondoestrofa9{
+    background-size: cover;
+    background-image: url(../imagenes/fondo%209.png);
+    background-repeat: no-repeat;
+}
+.colibrigif{
+width: 40%;    
+}
+.inicio{
+position:fixed;
+left:60%;
+top: 30%;
+}
+.final{
+    position:fixed;
+left:5%;
+top: 55%;
+transition: all 3s;
+}
+.icono{
+    width: 7%;
+    position: absolute;
+}
+.izquierda{
+    bottom: 2%;
+    left: 2%;
+}
+.derecha{
+    bottom: 2%;
+    right: 2%;
+}
+.numeros{
+    width: 15%;
+    position: absolute;
+    left: 95%;   
+}
+.muysccubun{
+    width: 8%;
+    position: absolute;
+    left: 95%;
+}

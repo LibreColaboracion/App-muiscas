@@ -1,0 +1,40 @@
+
+.cabecera { 
+    width: 100%;
+    height:9vw;
+    margin: auto;
+    background-color:red;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:99;
+}
+.logo{
+    width:5%;
+    float: left;
+    margin:1.5%;
+}
+.titulos { 
+    font-weight:bolder;
+    font-family:"helvetica";
+    font-size: 4vw;
+    text-align:center;
+    padding-top:2%;
+}
+.cuerpo{
+    width: 100%; 
+    position: absolute;
+    top:9.4vw;
+    left:0.5vw;
+    z-index: 98;
+}
+.vertical {
+    width: 33%;
+    height: auto;
+    display:block;
+    float:left;
+    margin: auto;
+}
+.horizontal{
+    display: none;
+}

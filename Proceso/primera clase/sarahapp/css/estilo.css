@@ -1,0 +1,21 @@
+h1{
+ color:red;
+  font-size:15vw;
+  font-family:courier;
+}
+h2{
+  color:orange;
+  font-size:13vw;
+  font-family:unset;
+}
+H3{
+  color:yellowgreen;
+  font-size:10vw;
+}
+.muysca{
+  font-size:5vw;
+}
+img{
+  width: 70%;
+  
+}
