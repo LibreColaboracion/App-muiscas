@@ -70,7 +70,6 @@ top:10%;
 font-size:4vw;
 }
 .estrofa4{
-    color:#ff1744;
 position:fixed;
 left:40%;
 top:60%;
@@ -141,29 +140,17 @@ top: 30%;
 }
 .final{
     position:fixed;
-left:5%;
-top: 55%;
+left:25%;
+top: 46%;
 transition: all 3s;
 }
-.icono{
-    width: 7%;
-    position: absolute;
-}
-.izquierda{
-    bottom: 2%;
-    left: 2%;
-}
-.derecha{
-    bottom: 2%;
-    right: 2%;
-}
-.numeros{
-    width: 15%;
-    position: absolute;
-    left: 95%;   
-}
-.muysccubun{
-    width: 8%;
-    position: absolute;
-    left: 95%;
+.cancion{
+position:fixed;
+font-size:3vw;
+text-align: center;
+color: darkred;
+font-family: cursive;
+background-image: url(../imagenes/fondo2.jpg);
+
+    
 }
