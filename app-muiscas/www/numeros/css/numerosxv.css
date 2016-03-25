@@ -1,4 +1,4 @@
-﻿body{
+body{
     margin:0;
     padding: 0;
 }
@@ -46,6 +46,14 @@
     position:fixed;
     width: 100%;
     height:15vh;
+}
+.atrasnumeros{
+    width: 10%;
+    position: fixed;
+    top:2.5vh;
+    left: 1%;
+    opacity: 0.6;
+    z-index: 60;
 }
 #h1js{
     text-align: center;

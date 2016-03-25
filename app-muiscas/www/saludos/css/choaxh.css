@@ -14,12 +14,12 @@ body{
     width:5vh;
     height:100%;
     float: left;
-    margin:1%;
+    margin:1.8% 1% 1% 1%;
 }
 .logopersona{
     width:8vh;
     float: left;
-    margin:1% 1% 1% -1%;
+    margin:1.7% 1% 1% -1%;
 }
 .titulo{
     font-family:"helvetica";

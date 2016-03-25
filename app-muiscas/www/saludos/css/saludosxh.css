@@ -12,9 +12,9 @@ body{
     z-index:90;
 }
 .logo{	
-    width:6vh;
+    width:8vh;
     float: left;
-    margin:2%;
+    margin:3% 2% 2% 2%;
 }
 .titulo{
     font-family:"helvetica";
