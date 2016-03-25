@@ -31,6 +31,27 @@
     width:100%;
     display:block
 }
+
+.horizontal img{
+    width:100%;
+    display:block
+}
+
+
+
+
 .vertical{
     display: none;
 }
+
+
+.numeros{
+    width:100%;
+}
+
+.numeros img{
+    width:30%;
+}
+
+
+
