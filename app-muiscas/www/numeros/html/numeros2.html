@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -14,57 +14,24 @@
         <title>Numeros</title>
     </head>
 <body>
-<!--  menu    -->
-<nav id="menu" class="invisible">
-        <ul>
-            <li class="titulomenu">Cartilla<br>Muysccubun<img onclick="menuc()" class="menuatras" src="../../img/atrasmenu.svg"/></li>
-            <li class="menuli"><a href="../../index.html"> Inicio</a></li>
-            <li class="menuli"><a href="../../saludos/saludos.html"> Saludos y presentación</a></li>
-            <li class="menuli"><a href="../../numeros/numerospr.html"> Números</a></li>
-            <li class="menuli"><a href="../rondadecolores/rondadecolores.html"> Ronda de colores</a></li>
-            <li class="menuli"><a href="../informacion/informacion.html"> Información</a></li>
-        </ul>
-    </nav>
-
-        <div  class= "cabecera">
-            <img class="logo" onclick="menu('#1AB1E1')" src="../../img/menu.svg">
-            <p class = "titulo">Numeros</p>
-        </div>
-
-<!-- fin del menu    -->  
-<body>
-<div class="cont1">
-    <div class="boton"> 
-        <a href="../numerospr.html">
-            <img class="boton" src="../img/caralineasbn.svg">
-        </a> 
-    </div>
+<div class="mostrarnumeros">
     <h1 id="h1js"> </h1>
 </div>
-<div class="numeros">
-    <img id="a0" src="../img/11.png" onclick="digito('Quihicha ata','pista11')">
-    <img id="a1" src="../img/12.png" onclick="digito('quihicha boza','pista12')">
-    <img id="a2" src="../img/13.png" onclick="digito('quihicha mica','pista13')"> 
-    <img id="a3" src="../img/14.png" onclick="digito('quihicha muyhyca','pista14')">
-    <img id="a4" src="../img/15.png" onclick="digito('quihicha hyzca','pista15')">
-    <img id="a5" src="../img/16.png" onclick="digito('quihicha taa','pista16')">
-    <img id="a6" src="../img/17.png" onclick="digito('quihicha cuhupqua','pista17')"> 
-    <img id="a7" src="../img/18.png" onclick="digito('quihicha suhuza','pista18')"> 
-    <img id="a8" src="../img/19.png" onclick="digito('quihicha aca','pista19')"> 
-     
-    <img id="a10" src="../img/20.png" onclick="digito('gueta','pista20')">
-    
-    <!--
-    <img id="a12" src="../imagenes/13.png" onclick="digito('Douze','/duz/','numero1','pista12')">
-    <img id="a13" src="../imagenes/14.png" onclick="digito('Treize','/trɛz/','numero1','pista13')">
-    <img id="a14" src="../imagenes/15.png" onclick="digito('Quatorze','/katɔrz/','numero1','pista14')">
-    <img id="a15" src="../imagenes/16.png" onclick="digito('Quinze','/kɛ̃z/','numero1','pista15')">
-    <img id="a16" src="../imagenes/17.png" onclick="digito('Seize','/sɛz/','numero1','pista16')">
-    <img id="a17" src="../imagenes/18.png" onclick="digito('Dix-sept','/disɛt/','numero1','pista17')">
-    <img id="a18" src="../imagenes/19.png" onclick="digito('Dix-huit','/dizɥit/','numero1','pista18')">
-    <img id="a19" src="../imagenes/20.png" onclick="digito('Dix-neuf','/diznœf/','numero1','pista19')">-->
-    
+<div class="cuerponumeros">
+    <img class="imgnumeros" id="a0" src="../img/11.png" onclick="digito('Quihicha ata','pista11')">
+    <img class="imgnumeros" id="a1" src="../img/12.png" onclick="digito('quihicha boza','pista12')">
+    <img class="imgnumeros" id="a2" src="../img/13.png" onclick="digito('quihicha mica','pista13')">
+    <img class="imgnumeros" id="a3" src="../img/14.png" onclick="digito('quihicha muyhyca','pista14')">
+    <img class="imgnumeros" id="a4" src="../img/15.png" onclick="digito('quihicha hyzca','pista15')">
+    <img class="imgnumeros" id="a5" src="../img/16.png" onclick="digito('quihicha taa','pista16')">
+    <img class="imgnumeros" id="a6" src="../img/17.png" onclick="digito('quihicha cuhupqua','pista17')">
+    <img class="imgnumeros" id="a7" src="../img/18.png" onclick="digito('quihicha suhuza','pista18')">
+    <img class="imgnumeros" id="a8" src="../img/19.png" onclick="digito('quihicha aca','pista19')">
+    <img class="imgnumeros noseve" id="a8" src="../img/9.png">
+    <img class="imgnumeros" id="a10" src="../img/20.png" onclick="digito('gueta','pista20')">
+    <img class="imgnumeros noseve" id="a8" src="../img/9.png">
 </div>
+
 <audio id="pista1" src="../audio/ata.ogg" preload="auto" type="audio/ogg"></audio>
 <audio id="pista2" src="../audio/boza.ogg" preload="auto" type="audio/ogg"></audio>
 <audio id="pista3" src="../audio/mica.ogg" preload="auto" type="audio/ogg"></audio>
