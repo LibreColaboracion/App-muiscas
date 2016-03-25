@@ -70,10 +70,9 @@ top:10%;
 font-size:4vw;
 }
 .estrofa4{
-<<<<<<< HEAD
+
     color:#ff1744;
-=======
->>>>>>> 4590d9f2735328b1ad1487e6b3005879cddf3b49
+
 position:fixed;
 left:40%;
 top:60%;
@@ -144,7 +143,7 @@ top: 30%;
 }
 .final{
     position:fixed;
-<<<<<<< HEAD
+
 left:5%;
 top: 55%;
 transition: all 3s;
@@ -171,19 +170,18 @@ transition: all 3s;
     position: absolute;
     left: 95%;
 }
-=======
-left:25%;
-top: 46%;
-transition: all 3s;
-}
+
+
+
+
 .cancion{
-position:fixed;
-font-size:3vw;
-text-align: center;
-color: darkred;
-font-family: cursive;
-background-image: url(../imagenes/fondo2.jpg);
+    position:fixed;
+    font-size:3vw;
+    text-align: center;
+    color: darkred;
+    font-family: cursive;
+    background-image: url(../imagenes/fondo2.jpg);
 
     
 }
->>>>>>> 4590d9f2735328b1ad1487e6b3005879cddf3b49
+
