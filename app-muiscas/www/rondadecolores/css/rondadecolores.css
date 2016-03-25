@@ -171,19 +171,16 @@ transition: all 3s;
     left: 95%;
 }
 
-left:25%;
-top: 46%;
-transition: all 3s;
-}
+
 
 
 .cancion{
-position:fixed;
-font-size:3vw;
-text-align: center;
-color: darkred;
-font-family: cursive;
-background-image: url(../imagenes/fondo2.jpg);
+    position:fixed;
+    font-size:3vw;
+    text-align: center;
+    color: darkred;
+    font-family: cursive;
+    background-image: url(../imagenes/fondo2.jpg);
 
     
 }
