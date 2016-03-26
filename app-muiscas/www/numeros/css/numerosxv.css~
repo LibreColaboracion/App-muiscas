@@ -38,7 +38,7 @@ body{
     width:100%;
     display:block
 }
-.verticalmenu{
+.vertical{
     display: none;
 }
 .mostrarnumeros{
