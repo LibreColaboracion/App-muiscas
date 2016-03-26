@@ -55,46 +55,53 @@ var ejercicios = [
 var respuestas = ['ata','boza','mica','muyhyca','hyzca','taa','cuhupqua','suhuza','aca','ubchihica','quihicha ata','quihicha boza','quihicha mica','quihicha muyhyca','quihicha hyzca','quihicha taa','quihicha cuhupqua','quihicha suhuza','quihicha aca','gueta','ata','boza','mica','muyhyca','hyzca','taa','cuhupqua','suhuza','aca','ubchihica','quihicha ata','quihicha boza','quihicha mica','quihicha muyhyca','quihicha hyzca','quihicha taa','quihicha cuhupqua','quihicha suhuza','quihicha aca','gueta'];
 // Esta funcion comienza el ejercicio
 function comenzar(id,preg){
-        numero = Math.round(Math.random()*preg.length);
+        numero = Math.round(Math.random()*((preg.length)-1));
     var input = document.getElementById("sub");
     var cuerpo = document.getElementById("e1");
     var borrar = document.getElementById(id);
     borrar.style.display = "none";
     input.style.display ="flex";
     cuerpo.innerHTML ='<div class="relativo"><div class="centrado"><h1>'+preg[numero]+'</h1></div></div>';
-    console.log('numero '+numero,'preg[numero] '+preg[numero],ejercicios.length,respuestas.length)
 }
 // Esta función es para mostrar los ejercicios aleatoriamente
 function quiz(pregun,respu,event) {
     var enter = event.keyCode;
     var input1 = document.getElementById("sub");
     var puntaje = document.getElementById("puntaje");
+    var error = document.getElementById("errores");
+    var aparecer = document.getElementById("tot");
+    var estudio = document.getElementById("estudiar");
     var val = document.getElementById('getexto').value;
     var cuerpo=document.getElementById("e1");
     var valor = val.toLowerCase();
     var respuesta = respu[numero];
     if(enter == 13 | enter == undefined){
-        console.log("oui",respuesta);
-        console.log(respuesta,pregun[numero] );
         if(valor == respuesta){
             contar++;
-            puntaje.innerHTML= contar;
-            numero = Math.round(Math.random()*pregun.length);
-            console.log(numero,respuesta,pregun.length);
-            cuerpo.innerHTML ='<div class="relativo"><div class="centrado"><h1>'+pregun[numero]+'</h1></div></div>';
-
+            if(contar <= 14){
+                puntaje.innerHTML= contar;
+                numero = Math.round(Math.random()*((pregun.length)-1));
+                console.log(numero,respuesta,pregun.length);
+                cuerpo.innerHTML ='<div class="relativo"><div class="centrado"><h1>'+pregun[numero]+'</h1></div></div>';
+            }
+            if(contar == 15){
+                puntaje.innerHTML= contar;
+                aparecer.style.display="inherit";
+                input1.style.display ="none";
+            }
         }else{
             negativa++;
             switch(negativa){
                 case 1:
-                    cuerpo.innerHTML +='<div class="relativo"><div class="centrado"><h1>esta mal</h1></div></div>';
+                    error.innerHTML +="X";
                     break;
                 case 2:
-                    cuerpo.innerHTML +='<div class="relativo"><div class="centrado"><h1>esta mal</h1></div></div>';
+                    error.innerHTML +="X";
                     break;
                 case 3:
+                    estudio.style.display="inherit";
                     input1.style.display ="none";
-                    cuerpo.innerHTML +='<div class="relativo"><div class="centrado"><h1>Vuelve a estudiar</h1></div></div>';
+                    error.innerHTML +="X";
                     break;
             }
         }

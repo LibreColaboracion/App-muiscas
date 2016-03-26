@@ -13,22 +13,30 @@
         <title>Numeros Menu 1 a 10</title>
     </head>
 <body>
-<div>
-    <p>puntaje <b id="puntaje"></b></p>
-    <p id="errores"></p>
+<div class="resultados">
+    <p class="res">Puntaje: <b class="res" id="puntaje"></b></p>
+    <p class="res error" id="errores"></p>
 </div>
 <div id="e1" class="caja">
 </div>
 <div id="enun" class="cambio">
-        <p class="enunciado">Responde tantas preguntas como puedas escribiendo en muysccubun el numero correspondiente</p>
+        <p class="enunciado">Responde tantas preguntas como puedas escribiendo en muysccubun el número correspondiente</p>
         <a class="opciones" href="../numerospr.html">Atras</a>
         <p class="opciones" onclick="comenzar('enun',ejercicios)">Comenzar<p>
-    </div>
+</div>
+<div id="tot" class="total">
+        <p class="enunciado">Haz logrado responder 15 preguntas sin equivocarte 3 veces</p>
+        <a class="opciones" href="../numerospr.html">Números</a>
+        <a class="opciones" href="../html/ejercicios.html">Comenzar<p>
+</div>
+<div id="estudiar" class="estudiar">
+        <p class="enunciado">Debes volver a repasar los números en muysccubun</p>
+        <a class="opciones" href="../html/numerosmenu.html">Estudiar</a>
+</div>
 <div id="sub" class="subministrar">
     <input id="getexto" onkeyup="quiz(ejercicios,respuestas,event)" class="inputexto" type="text"></textarea>
     <p id="boton" onclick="quiz(ejercicios,respuestas,event)" class="enter">&#8592;<p>
 </div>
-<!-- hola -->
 <audio id="pista1" src="../audio/ata.ogg" preload="auto" type="audio/ogg"></audio>
 <audio id="pista2" src="../audio/boza.ogg" preload="auto" type="audio/ogg"></audio>
 <audio id="pista3" src="../audio/mica.ogg" preload="auto" type="audio/ogg"></audio>
