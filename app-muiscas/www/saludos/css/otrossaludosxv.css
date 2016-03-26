@@ -14,7 +14,7 @@ body{
 }
 
 .cabecera img{ 
-    width: 12%;
+    width: 10%;
     
 }
 
@@ -47,4 +47,21 @@ body{
 
 .textootrossaludos{text-align: center;
                     
+}
+
+
+.tabla{width: 100%;
+        
+        
+}
+
+.tabla table{  margin: 0 auto;
+       
+}
+
+
+table, th, td{  border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-size: 3.5vh;
+    
 }
