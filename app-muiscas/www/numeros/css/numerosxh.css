@@ -79,3 +79,44 @@ body{
 
 }
 .verticalmenu img {width:100%;}
+
+
+.tunjocuerpo {overflow:auto;
+            position: fixed;
+            top:41vh;
+            
+            width: 100%;
+    
+}
+
+.tunjoimgv{ 
+    width: 70%;
+    margin-left: 10%;
+    background-color: coral;
+    
+    
+}
+.tunjoimgv img{ 
+    width: 17%;
+    margin-left: 0%;
+    
+    float: left;
+    
+}
+
+
+.textotunjov{ width:100%;
+            width: 70%;
+            float: right;
+            margin-top: 2%;
+            box-shadow: -9px 6px 5px #999;
+            font-size: 5vh;
+            margin-right: 3%;
+            background: linear-gradient(orange, chocolate); 
+    
+    
+            
+    
+}
+
+
