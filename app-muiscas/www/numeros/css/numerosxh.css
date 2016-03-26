@@ -72,3 +72,10 @@ body{
 .noseve{
     display: none;
 }
+
+
+.verticalmenu{width:50%;
+		float:left;
+
+}
+.verticalmenu img {width:100%;}
