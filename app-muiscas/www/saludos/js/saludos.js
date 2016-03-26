@@ -1,6 +1,6 @@
 ﻿// este es el orden de las preguntas
 var  preguntas1 = ['mi _______ es Carlos','choá','Muaz choa umzone','Zehica Carlos Fiquitiva gue nga cha Suba gue','Ipquo ahyca?','Ipquá zeguaque nzinga','Mis ichosqua'];
-
+// estas sib kas respuestas
 var respuestas1 = ['nombre','chogue','ehe','zehica carlos fiquitiva gue nga cha suba gue','juan garibello gue ahyca','ipqua, mis ichosqua'];
 
 var negativa = 0; /*Lleva la cantidad de errores*/

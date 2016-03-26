@@ -1,69 +1,102 @@
-//  Esta función es para mostrar la escritura y escuchar su audio
+﻿//  Esta función es para mostrar la escritura y escuchar su audio
 function digito(nombre,audio){
-    var numero = document.getElementById("h1js");
+    var numero1 = document.getElementById("h1js");
     var au = document.getElementById(audio);
-        numero.innerHTML=nombre;
-//         numero.className=clase;
+        numero1.innerHTML=nombre;
         au.play();
 }
-// Esta función es para mostrar los ejercicios aleatoriamente 
-    var antes = null;
-    var contar= 0;
-    var ejercicios = ["e1","e2","e3","e4","e5","e6","e7","e8","e9","e10","e11","e12","e13","e14","e15","e16","e17","e18","e19","e20","e21","e22","e23","e24","e25","e26","e27","e28","e29","e30"];
-
-    function comenzar(){
-    var numero = Math.round(Math.random()*((ejercicios.length)-1));
-    var id = ejercicios[numero];
-    var visible = document.getElementById(id);
-    var inicio = document.getElementById("inicio")
-        
-        inicio.className="caja invisible";
-        visible.className="caja";
-        console.log(numero,id,contar)
-        
+// Aqui estan las variables globales donde tambien se alojan los ejercicios y sus respuestas
+var contar= 0;
+var hechos=[];
+var numero= 0 ;
+var negativa = 0;
+var ejercicios = [
+'<img class="imagenp" src="../img/1.png">',
+'<img class="imagenp" src="../img/2.png">',
+'<img class="imagenp" src="../img/3.png">',
+'<img class="imagenp" src="../img/4.png">',
+'<img class="imagenp" src="../img/5.png">',
+'<img class="imagenp" src="../img/6.png">',
+'<img class="imagenp" src="../img/7.png">',
+'<img class="imagenp" src="../img/8.png">',
+'<img class="imagenp" src="../img/9.png">',
+'<img class="imagenp" src="../img/10.png">',
+'<img class="imagenp" src="../img/11.png">',
+'<img class="imagenp" src="../img/12.png">',
+'<img class="imagenp" src="../img/13.png">',
+'<img class="imagenp" src="../img/14.png">',
+'<img class="imagenp" src="../img/15.png">',
+'<img class="imagenp" src="../img/16.png">',
+'<img class="imagenp" src="../img/17.png">',
+'<img class="imagenp" src="../img/18.png">',
+'<img class="imagenp" src="../img/19.png">',
+'<img class="imagenp" src="../img/20.png">',
+'<img class="imagenp" onclick="getElementById(&apos;pista1&apos;).play()" src="../../img/caracola.png">',
+'<img class="imagenp" onclick="getElementById(&apos;pista2&apos;).play()" src="../../img/caracola.png">',
+'<img class="imagenp" onclick="getElementById(&apos;pista3&apos;).play()" src="../../img/caracola.png">',
+'<img class="imagenp" onclick="getElementById(&apos;pista4&apos;).play()" src="../../img/caracola.png">',
+'<img class="imagenp" onclick="getElementById(&apos;pista5&apos;).play()" src="../../img/caracola.png">',
+'<img class="imagenp" onclick="getElementById(&apos;pista6&apos;).play()" src="../../img/caracola.png">',
+'<img class="imagenp" onclick="getElementById(&apos;pista7&apos;).play()" src="../../img/caracola.png">',
+'<img class="imagenp" onclick="getElementById(&apos;pista8&apos;).play()" src="../../img/caracola.png">',
+'<img class="imagenp" onclick="getElementById(&apos;pista9&apos;).play()" src="../../img/caracola.png">',
+'<img class="imagenp" onclick="getElementById(&apos;pista10&apos;).play()" src="../../img/caracola.png">',
+'<img class="imagenp" onclick="getElementById(&apos;pista11&apos;).play()" src="../../img/caracola.png">',
+'<img class="imagenp" onclick="getElementById(&apos;pista12&apos;).play()" src="../../img/caracola.png">',
+'<img class="imagenp" onclick="getElementById(&apos;pista13&apos;).play()" src="../../img/caracola.png">',
+'<img class="imagenp" onclick="getElementById(&apos;pista14&apos;).play()" src="../../img/caracola.png">',
+'<img class="imagenp" onclick="getElementById(&apos;pista15&apos;).play()" src="../../img/caracola.png">',
+'<img class="imagenp" onclick="getElementById(&apos;pista16&apos;).play()" src="../../img/caracola.png">',
+'<img class="imagenp" onclick="getElementById(&apos;pista17&apos;).play()" src="../../img/caracola.png">',
+'<img class="imagenp" onclick="getElementById(&apos;pista18&apos;).play()" src="../../img/caracola.png">',
+'<img class="imagenp" onclick="getElementById(&apos;pista19&apos;).play()" src="../../img/caracola.png">',
+'<img class="imagenp" onclick="getElementById(&apos;pista20&apos;).play()" src="../../img/caracola.png">'
+];
+var respuestas = ['ata','boza','mica','muyhyca','hyzca','taa','cuhupqua','suhuza','aca','ubchihica','quihicha ata','quihicha boza','quihicha mica','quihicha muyhyca','quihicha hyzca','quihicha taa','quihicha cuhupqua','quihicha suhuza','quihicha aca','gueta','ata','boza','mica','muyhyca','hyzca','taa','cuhupqua','suhuza','aca','ubchihica','quihicha ata','quihicha boza','quihicha mica','quihicha muyhyca','quihicha hyzca','quihicha taa','quihicha cuhupqua','quihicha suhuza','quihicha aca','gueta'];
+// Esta funcion comienza el ejercicio
+function comenzar(id,preg){
+        numero = Math.round(Math.random()*preg.length);
+    var input = document.getElementById("sub");
+    var cuerpo = document.getElementById("e1");
+    var borrar = document.getElementById(id);
+    borrar.style.display = "none";
+    input.style.display ="flex";
+    cuerpo.innerHTML ='<div class="relativo"><div class="centrado"><h1>'+preg[numero]+'</h1></div></div>';
+    console.log('numero '+numero,'preg[numero] '+preg[numero],ejercicios.length,respuestas.length)
 }
-function azar(){
-    var numero = Math.round(Math.random()*((ejercicios.length)-1));
-    var id = ejercicios[numero];
-    var invisible = document.getElementById(antes);
-    var visible = document.getElementById(id);
-    var fin = document.getElementById("fin");
-    
-        insertar.innerHTML=contar;
-        console.log(id, numero,diferente,((ejercicios.length)-1));
-        
-        if (contar <= 3){
-            for (var i = 0; i <= 2; i++) {
-                switch(i){
-                    case 1:
-                        invisible.className="caja invisible";
-                    break;
-                    case 2:
-                        visible.className="caja";
-                        antes = id;
-                    break;
-                }
-            }
-        }else{
-            invisible.className="caja invisible";
-            fin.className="caja";
-        }
-}
-// function para los diferentes ejercicios
-function escrito(id,respuesta,event) {
+// Esta función es para mostrar los ejercicios aleatoriamente
+function quiz(pregun,respu,event) {
     var enter = event.keyCode;
-    var valor = document.getElementById(id).value;
-    
-    console.log(valor, enter)
-    
+    var input1 = document.getElementById("sub");
+    var puntaje = document.getElementById("puntaje");
+    var val = document.getElementById('getexto').value;
+    var cuerpo=document.getElementById("e1");
+    var valor = val.toLowerCase();
+    var respuesta = respu[numero];
     if(enter == 13 | enter == undefined){
-        console.log("oui")
-	if(valor == respuesta){
-            console.log("Bravo");
-        }else{
+        console.log("oui",respuesta);
+        console.log(respuesta,pregun[numero] );
+        if(valor == respuesta){
             contar++;
-            console.log("Mal");
-        };
+            puntaje.innerHTML= contar;
+            numero = Math.round(Math.random()*pregun.length);
+            console.log(numero,respuesta,pregun.length);
+            cuerpo.innerHTML ='<div class="relativo"><div class="centrado"><h1>'+pregun[numero]+'</h1></div></div>';
+
+        }else{
+            negativa++;
+            switch(negativa){
+                case 1:
+                    cuerpo.innerHTML +='<div class="relativo"><div class="centrado"><h1>esta mal</h1></div></div>';
+                    break;
+                case 2:
+                    cuerpo.innerHTML +='<div class="relativo"><div class="centrado"><h1>esta mal</h1></div></div>';
+                    break;
+                case 3:
+                    input1.style.display ="none";
+                    cuerpo.innerHTML +='<div class="relativo"><div class="centrado"><h1>Vuelve a estudiar</h1></div></div>';
+                    break;
+            }
+        }
     }
 }
-
