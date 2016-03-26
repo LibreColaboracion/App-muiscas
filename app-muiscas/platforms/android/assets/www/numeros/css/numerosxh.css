@@ -1,0 +1,142 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.cabecera {
+    width: 100%;
+    height:9vw;
+    margin: auto;
+    background-color:red;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:99;
+}
+.logo{
+    width:5%;
+    float: left;
+    margin:1.5%;
+}
+.titulos {
+    font-weight:bolder;
+    font-family:"helvetica";
+    font-size: 4vw;
+    text-align:center;
+    padding-top:2%;
+}
+.cuerpo{
+    width: 100%;
+    position: absolute;
+    top:9.4vw;
+    left:0.5vw;
+    z-index: 98;
+}
+.vertical {
+    width: 33%;
+    height: auto;
+    display:block;
+    float:left;
+    margin: auto;
+}
+.horizontal{
+    display: none;
+}
+.mostrarnumeros{
+    background-color: red;
+    box-shadow: 0 2.5vh 1vh -1vh gray;
+    position:fixed;
+    width: 100%;
+    height:35vh;
+}
+.atrasnumeros{
+    width: 10%;
+    position: fixed;
+    top:5vh;
+    left: 1%;
+    opacity: 0.6;
+    z-index: 60;
+}
+#h1js{
+    text-align: center;
+    font-size:12vh;
+    font-family: "helvetica";
+}
+.cuerponumeros{
+    overflow:auto;
+    position: fixed;
+    top:41vh;
+}
+.imgnumeros{
+    width:19%;
+}
+.noseve{
+    display: none;
+}
+
+
+.verticalmenu{width:50%;
+		float:left;
+
+}
+.verticalmenu img {width:100%;}
+
+
+.tunjocuerpo {overflow:auto;
+            position: fixed;
+            top:25vh;
+            
+            width: 100%;
+    
+}
+
+.tunjoimgv{ 
+    width: 70%;
+    margin-left: 10%;
+    background-color: coral;
+    
+    
+}
+.tunjoimgv img{ 
+    width: 17%;
+    margin-left: 0%;
+    
+    float: left;
+    
+}
+
+
+.textotunjov{ width:100%;
+            width: 70%;
+            float: right;
+            margin-top: 2%;
+            box-shadow: -9px 6px 5px #999;
+            font-size: 5vh;
+            margin-right: 3%;
+            background: linear-gradient(orange, chocolate); 
+        
+}
+
+.cabecerainfo{
+    background-color: sienna;
+    box-shadow: 0 2.5vh 1vh -1vh gray;
+    position:fixed;
+    width: 100%;
+    height:18vh;}
+
+
+
+.atrasmenu{
+    width: 7%;
+    position: fixed;
+    left: 1%;
+    z-index: 60;
+    margin-top: 1%;
+}
+
+#titulotunjo{
+    text-align: center;
+    font-size:12vh;
+    font-family: "helvetica";
+    margin-top: 0;
+    color: white;
+}
