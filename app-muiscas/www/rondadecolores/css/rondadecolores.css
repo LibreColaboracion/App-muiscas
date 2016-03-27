@@ -40,6 +40,11 @@
     background-image: url(../imagenes/fondo3.jpg);
     background-repeat: no-repeat;
 }
+.fondoestrofa9{
+    background-size: cover;
+    background-image: url(../imagenes/fondo9.png);
+    background-repeat: no-repeat;
+}
 .mitamaño{
     width: 20%;
 }
@@ -62,6 +67,7 @@ position:fixed;
 left:50%;
 top:70%;
 font-size:3vw;
+z-index: 90;
 }
 .estrofa3{
 position:fixed;
@@ -134,17 +140,18 @@ font-size:3vw;
     background-repeat: no-repeat;
 }
 .colibrigif{
-width: 40%;    
+width: 90%;   
+z-index: 50;
 }
 .inicio{
 position:fixed;
 left:60%;
-top: 30%;
+top: 20%;
 }
 .final{
     position:fixed;
 
-left:5%;
+left:39%;
 top: 55%;
 transition: all 3s;
 }
@@ -185,3 +192,50 @@ transition: all 3s;
     
 }
 
+
+.nina{
+      width: 18%;
+    position: absolute;
+    left: 17%;
+    
+}
+.planeta{
+      width: 15%;
+    position: absolute;
+    right: 50%;
+    top: 10vw;
+}
+
+.arcoiris{
+      width: 88%;
+    position: absolute;
+    left: 25%;
+bottom: -10%;
+}
+/*hola*/
+.colibri2{
+    width: 7%;
+    position: absolute;
+     top: 16vw;
+    right: 94%;
+}
+
+.coli3{
+    width: 7%;
+    position: absolute;
+    top: 10vw;
+    right: 65%;
+}
+.arcoiris2{
+      width: 88%;
+    position: absolute;
+    left: 25%;
+    bottom: -68%; 
+    z-index:10;
+}
+#colibri{
+   z-index: 90; 
+}
+.derecha{
+    z-index: 90;
+}
