@@ -176,6 +176,9 @@ body{
     width:100%;
     color:#fffff;
 }
+.noseve{
+    opacity: 0;
+}
 /* Burbujas fin */
 .derecha{
     background-color:#ffa726;
