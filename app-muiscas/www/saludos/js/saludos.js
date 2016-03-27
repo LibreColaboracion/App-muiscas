@@ -1,4 +1,4 @@
-﻿//  Esta función es para mostrar la escritura y escuchar su audio
+﻿//  Esta función es para escuchar su audio
 function digito(audio){
         var au = document.getElementById(audio);
         au.play();
