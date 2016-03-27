@@ -17,38 +17,93 @@
     </a>
     <img class="logopersona" src="../imagenes/chathombre.svg">
     <p class ="titulo">Carlos Fiquitiva</p>
-    <p class ="subtitulo">Explicacion Saludos</p>
+    <p class ="subtitulo">Explicación Saludos</p>
 </div>
-<div class="explicacion">
-    <h1 id="e1" class="saludo"></h1>
-    <p id="e2" class="textoexplicacion"><p>
+<div id="principal" class="cuerpo">
+    <div class="explicacion">
+        <h1 id="e1" class="saludo"></h1>
+        <p id="e2" class="textoexplicacion"><p>
+    </div>
+    <div class= "cuerpo1">
+        <img id="mediodia" class="tamano mediodia" src="../imagenes/mediodia.gif">
+        <img id="atardecer" class="tamano atardecer" src="../imagenes/atardecer.gif">
+        <img id="amanecer" class="tamano amanecer" src="../imagenes/amanecer.gif">
+        <img id="medianoche" class="tamano medianoche" src="../imagenes/medianoche.gif">
+    </div>
+    <div class="contsaludos">
+        <table class="normal" summary="Tabla genérica">
+            <tr>
+                <th onclick="hola('Choá','este saludo se utiliza a todas horas y momentos del día, su significa es &quot;¿estás bien?&quot;','choa','mediodia','atardecer','amanecer','medianoche')">Choá</th>
+            </tr>
+            <tr>
+                <th onclick="hola('Chogue','Es la respuesta a Choa y tambien se usa en cual hora y momento del día, su significado es &quot;estoy bien&quot;','chogue','mediodia','atardecer','amanecer','medianoche')">Chogue</th>
+            </tr>
+            <tr>
+                <th onclick="hola('Chibu','Usada en todo momento del día, Es una expreción exclamativa empleada como saludo informal para dirigirse a una persona que va de pasada y podría significar &quot;!hola¡&quot; o &quot;!mira¡&quot;','chibu','mediodia','atardecer','amanecer','medianoche')">Chibu</th>
+            </tr>
+            <tr>
+                <th onclick="hola('Chibusgua','Usada en todo momento del día, Es una expreción exclamativa empleada como saludo informal para dirigirse a más de una persona que van de pasada y podría significar &quot;!hola¡&quot; o &quot;!mira¡&quot;.<br>Ten en cuenta que el sufijo &quot;~sgua&quot; marca el plural','chibusgua','mediodia','atardecer','amanecer','medianoche')">Chibusgua</th>
+            </tr>
+            <tr>
+                <th onclick="hola('Guaza','Expreción exclamativa usada en todo momento del día y empleada para saludar a los jovenes','guaza','mediodia','atardecer','amanecer','medianoche')">Guaza</th>
+            </tr>
+            <tr>
+                <th onclick="hola('Chogue sua','Saludo reconstruido del español que significa &quot;Buen día&quot;','choguesua','mediodia','amanecer','atardecer')">Chogue sua</th>
+            </tr>
+            <tr>
+                <th onclick="hola('Chogue sua mena','Saludo reconstruido del español que significa &quot;Buen día en la mañana&quot;','choguesuamena','amanecer','mediodia')">Chogue sua mena</th>
+            </tr>
+            <tr>
+                <th onclick="hola('Chogue sua meca','Saludo reconstruido del español que significa &quot;Buen día en la tarde&quot;','choguesuameca','mediodia','atardecer')">Chogue sua meca</th>
+            </tr>
+            <tr>
+                <th onclick="hola('Chogue za','Saludo reconstruido del español que significa &quot;Buena noche&quot;','chogueza','mediodia','atardecer','amanecer','medianoche')">Chogue za</th>
+            </tr>
+            <tr>
+                <th onclick="hola('Sua choc aguenua','Locución interrogativa reconstruida del español que significa &quot;¿tiene buenos días?&quot;','suachocaguenua','mediodia','atardecer','amanecer','medianoche')">Sua choc aguenua</th>
+            </tr>
+            <tr>
+                <th onclick="hola('Sua choc aguene','Es la respuesta a Sua choc aguenua que significa en español &quot;¡Tengo buenos días!&quot;','suachocaguene','mediodia','atardecer','amanecer')">Sua choc aguene</th>
+            </tr>
+            <tr>
+                <th onclick="hola('Za choc aguenua','Locución interrogativa reconstruida del español que significa &quot;¿tiene buenas noches?&quot;','zachocaguenua','medianoche')">Za choc aguenua</th>
+            </tr>
+            <tr>
+                <th onclick="hola('Za choc aguene','Es la respuesta a Sua choc aguenua que significa en español &quot;¡Tengo buenas noches!&quot;','zachocaguene','medianoche')">Za choc aguene</th>
+            </tr>
+            <tr>
+                <th onclick="cambiarpantalla('principal','cuerpo','secundario','ejercicio')">Ejercicios</th>
+            </tr>
+        </table>
+    </div>
 </div>
-<div class= "cuerpo">
-    <img id="mediodia" class="tamano mediodia" src="../imagenes/mediodia.gif">
-    <img id="atardecer" class="tamano atardecer" src="../imagenes/atardecer.gif">
-    <img id="amanecer" class="tamano amanecer" src="../imagenes/amanecer.gif">
-    <img id="medianoche" class="tamano medianoche" src="../imagenes/medianoche.gif">
+<div id="secundario" class="ejercicio abajo">
+<br>
+    <div id="enun" class="cambio">
+        <p class="enunciado">Responde la conversación en el chat, solo puedes equivocarte tres veces</p>
+        <p class="opciones"  onclick="cambiarpantalla('secundario','ejercicio','principal','cuerpo')">Atras</p>
+<!--    la funcion comenzar inicia los ejercicios pide dos cosas: el elemento con id enun que desaparese, ahí va el enunciado y esta en el html, y el primer grupo de preguntas, este no va en comillas por que esta en el js-->
+        <p class="opciones" onclick="comenzar('enun',preguntas1)">Comenzar<p>
+    </div>
+    <div id="sub" class="subministrar">
+        <input id="getexto" onkeyup="dialogo(preguntas1,respuestas1,event)" class="inputexto" type="text"></textarea>
+<!--en la funcion dialogo se define el grupo de preguntas y respuestas a usar estas no van en commillas simples por que son del javascript-->
+        <p id="boton" onclick="dialogo(preguntas1,respuestas1,event)" class="enter">&#8592;<p>
+    </div>
 </div>
-<div class="contsaludos">
-    <table class="normal" summary="Tabla genérica">
-        <tr>
-            <th onclick="hola('Choá','este saludo se utiliza a todas horas y todos los días este saludo se utiliza a todas horas y todos los días este saludo se utiliza a todas horas y todos los días','choa','mediodia','atardecer','amanecer','medianoche')">Choá</th>
-        </tr>
-        <tr>
-            <th onclick="hola('Chogue Sua','forma reconstruida del español que significa: Buenos días','chogue','mediodia','amanecer')">Chogue Sua</th>
-        </tr>
-        <tr>
-            <th>Chogue Sua Mena</th>
-        </tr>
-        <tr>
-            <th>Chogue Sua Meca</th>
-        </tr>
-        <tr>
-            <th>Chogue Za</th>
-        </tr>
-    </table>
-</div>
-<audio id="choa" src="../audio/saludo4.ogg"></audio>
-<audio id="chogue" src="../audio/buenosdias2.ogg"></audio>
+<audio id="choa" src="../audio/choa.ogg"></audio>
+<audio id="chogue" src="../audio/chogue.ogg"></audio>
+<audio id="chibu" src="../audio/chibu.ogg"></audio>
+<audio id="chibusgua" src="../audio/chibusgua.ogg"></audio>
+<audio id="guaza" src="../audio/guaza.ogg"></audio>
+<audio id="tyba" src="../audio/tyba.ogg"></audio>
+<audio id="choguesua" src="../audio/choguesua.ogg"></audio>
+<audio id="choguesuamena" src="../audio/choguesuamena.ogg"></audio>
+<audio id="choguesuameca" src="../audio/choguesuameca.ogg"></audio>
+<audio id="chogueza" src="../audio/chogueza.ogg"></audio>
+<audio id="suachocaguenua" src="../audio/suachocaguenua.ogg"></audio>
+<audio id="suachocaguene" src="../audio/suachocaguene.ogg"></audio>
+<audio id="zachocaguenua" src="../audio/zachocaguenua.ogg"></audio>
+<audio id="zachocaguene" src="../audio/zachocaguene.ogg"></audio>
 </body>
 </html>

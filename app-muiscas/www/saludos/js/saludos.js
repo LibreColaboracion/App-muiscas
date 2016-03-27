@@ -1,10 +1,17 @@
-//  Esta función es para mostrar la escritura y escuchar su audio
+﻿//  Esta función es para mostrar la escritura y escuchar su audio
 function digito(audio){
         var au = document.getElementById(audio);
         au.play();
 }
-
-
+//  Cambio de pantalla
+function cambiarpantalla(uno,clase1,dos,clase2){
+    var p1 = document.getElementById(uno);
+    var desaparecer = clase1 +" "+"arriba";
+    p1.className= desaparecer;
+    var p2 = document.getElementById(dos);
+    var aparecer = clase2;
+    p2.className= aparecer;
+}
 // este es el orden de las preguntas
 var  preguntas1 = ['mi _______ es Carlos','choá','Muaz choa umzone','Zehica Carlos Fiquitiva gue nga cha Suba gue','Ipquo ahyca?','Ipquá zeguaque nzinga','Mis ichosqua'];
 // estas sib kas respuestas
