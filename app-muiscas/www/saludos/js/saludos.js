@@ -14,8 +14,17 @@ function cambiarpantalla(uno,clase1,dos,clase2){
 }
 // este es el orden de las preguntas
 var  preguntas1 = ['mi _______ es Carlos','choá','Muaz choa umzone','Zehica Carlos Fiquitiva gue nga cha Suba gue','Ipquo ahyca?','Ipquá zeguaque nzinga','Mis ichosqua'];
-// estas sib kas respuestas
+// estas son las respuestas
 var respuestas1 = ['nombre','chogue','ehe','zehica carlos fiquitiva gue nga cha suba gue','juan garibello gue ahyca','ipqua, mis ichosqua'];
+
+var preguntas2 =[
+    '<img class="tamano" src="../imagenes/mediodia.gif"> <b class="noseve">------</b> _ _ _ _ _ _ <b class="noseve">------</b> _ _ _',
+    '<img class="tamano" src="../imagenes/medianoche.gif"> <b class="noseve">------</b> _ _ _ _ _ _ <b class="noseve">------</b> _ _',
+    '<img class="tamano" src="../imagenes/amanecer.gif">_ _ _ _ _ _<b class="noseve">----</b> _ _ _<b class="noseve">----</b>_ _ _ _',
+    '<img class="tamano" src="../imagenes/atardecer.gif">_ _ _ _ _ _<b class="noseve">----</b> _ _ _<b class="noseve">----</b>_ _ _ _',
+
+                ];
+    var respuestas2 =['chogue sua','chogue za','chogue sua mena','chogue sua meca'];
 
 var negativa = 0; /*Lleva la cantidad de errores*/
 var numpregunta=0; /*Lleva el avance en las preguntas*/

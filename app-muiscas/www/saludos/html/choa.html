@@ -39,13 +39,13 @@
                 <th onclick="hola('Chogue','Es la respuesta a Choa y tambien se usa en cual hora y momento del día, su significado es &quot;estoy bien&quot;','chogue','mediodia','atardecer','amanecer','medianoche')">Chogue</th>
             </tr>
             <tr>
-                <th onclick="hola('Chibu','Usada en todo momento del día, Es una expreción exclamativa empleada como saludo informal para dirigirse a una persona que va de pasada y podría significar &quot;!hola¡&quot; o &quot;!mira¡&quot;','chibu','mediodia','atardecer','amanecer','medianoche')">Chibu</th>
+                <th onclick="hola('Chibu','Usada en todo momento del día, Es una expresión exclamativa empleada como saludo informal para dirigirse a una persona que va de pasada y podría significar &quot;!hola¡&quot; o &quot;!mira¡&quot;','chibu','mediodia','atardecer','amanecer','medianoche')">Chibu</th>
             </tr>
             <tr>
-                <th onclick="hola('Chibusgua','Usada en todo momento del día, Es una expreción exclamativa empleada como saludo informal para dirigirse a más de una persona que van de pasada y podría significar &quot;!hola¡&quot; o &quot;!mira¡&quot;.<br>Ten en cuenta que el sufijo &quot;~sgua&quot; marca el plural','chibusgua','mediodia','atardecer','amanecer','medianoche')">Chibusgua</th>
+                <th onclick="hola('Chibusgua','Usada en todo momento del día, Es una expresión exclamativa empleada como saludo informal para dirigirse a más de una persona que van de pasada y podría significar &quot;!hola¡&quot; o &quot;!mira¡&quot;.<br>Ten en cuenta que el sufijo &quot;~sgua&quot; marca el plural','chibusgua','mediodia','atardecer','amanecer','medianoche')">Chibusgua</th>
             </tr>
             <tr>
-                <th onclick="hola('Guaza','Expreción exclamativa usada en todo momento del día y empleada para saludar a los jovenes','guaza','mediodia','atardecer','amanecer','medianoche')">Guaza</th>
+                <th onclick="hola('Guaza','Expresión exclamativa usada en todo momento del día y empleada para saludar a los jovenes','guaza','mediodia','atardecer','amanecer','medianoche')">Guaza</th>
             </tr>
             <tr>
                 <th onclick="hola('Chogue sua','Saludo reconstruido del español que significa &quot;Buen día&quot;','choguesua','mediodia','amanecer','atardecer')">Chogue sua</th>
@@ -54,16 +54,16 @@
                 <th onclick="hola('Chogue sua mena','Saludo reconstruido del español que significa &quot;Buen día en la mañana&quot;','choguesuamena','amanecer','mediodia')">Chogue sua mena</th>
             </tr>
             <tr>
-                <th onclick="hola('Chogue sua meca','Saludo reconstruido del español que significa &quot;Buen día en la tarde&quot;','choguesuameca','mediodia','atardecer')">Chogue sua meca</th>
+                <th onclick="hola('Chogue sua meca','Saludo reconstruido del español que significa &quot;Buen día en la tarde&quot;','choguesuameca','atardecer')">Chogue sua meca</th>
             </tr>
             <tr>
-                <th onclick="hola('Chogue za','Saludo reconstruido del español que significa &quot;Buena noche&quot;','chogueza','mediodia','atardecer','amanecer','medianoche')">Chogue za</th>
+                <th onclick="hola('Chogue za','Saludo reconstruido del español que significa &quot;Buena noche&quot;','chogueza','medianoche')">Chogue za</th>
             </tr>
             <tr>
-                <th onclick="hola('Sua choc aguenua','Locución interrogativa reconstruida del español que significa &quot;¿tiene buenos días?&quot;','suachocaguenua','mediodia','atardecer','amanecer','medianoche')">Sua choc aguenua</th>
+                <th onclick="hola('Sua choc aguenua','Locución interrogativa reconstruida del español que significa &quot;¿tiene buenos días?&quot;','suachocaguenua','mediodia','amanecer')">Sua choc aguenua</th>
             </tr>
             <tr>
-                <th onclick="hola('Sua choc aguene','Es la respuesta a Sua choc aguenua que significa en español &quot;¡Tengo buenos días!&quot;','suachocaguene','mediodia','atardecer','amanecer')">Sua choc aguene</th>
+                <th onclick="hola('Sua choc aguene','Es la respuesta a Sua choc aguenua que significa en español &quot;¡Tengo buenos días!&quot;','suachocaguene','mediodia','amanecer')">Sua choc aguene</th>
             </tr>
             <tr>
                 <th onclick="hola('Za choc aguenua','Locución interrogativa reconstruida del español que significa &quot;¿tiene buenas noches?&quot;','zachocaguenua','medianoche')">Za choc aguenua</th>
@@ -80,15 +80,15 @@
 <div id="secundario" class="ejercicio abajo">
 <br>
     <div id="enun" class="cambio">
-        <p class="enunciado">Responde la conversación en el chat, solo puedes equivocarte tres veces</p>
+        <p class="enunciado">Escribe la expresión que corresponda a la imagen, ten en cuenta el numero de letras y la cantidad de palabras</p>
         <p class="opciones"  onclick="cambiarpantalla('secundario','ejercicio','principal','cuerpo')">Atras</p>
 <!--    la funcion comenzar inicia los ejercicios pide dos cosas: el elemento con id enun que desaparese, ahí va el enunciado y esta en el html, y el primer grupo de preguntas, este no va en comillas por que esta en el js-->
-        <p class="opciones" onclick="comenzar('enun',preguntas1)">Comenzar<p>
+        <p class="opciones" onclick="comenzar('enun',preguntas2)">Comenzar<p>
     </div>
     <div id="sub" class="subministrar">
-        <input id="getexto" onkeyup="dialogo(preguntas1,respuestas1,event)" class="inputexto" type="text"></textarea>
+        <input id="getexto" onkeyup="dialogo(preguntas2,respuestas2,event)" class="inputexto" type="text"></textarea>
 <!--en la funcion dialogo se define el grupo de preguntas y respuestas a usar estas no van en commillas simples por que son del javascript-->
-        <p id="boton" onclick="dialogo(preguntas1,respuestas1,event)" class="enter">&#8592;<p>
+        <p id="boton" onclick="dialogo(preguntas2,respuestas2,event)" class="enter">&#8592;<p>
     </div>
 </div>
 <audio id="choa" src="../audio/choa.ogg"></audio>
