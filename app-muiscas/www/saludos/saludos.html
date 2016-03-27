@@ -38,13 +38,14 @@
             <div class="contexto">
                 <a class="texto" href="html/choa.html">Choá</a>
             </div>
-            <img class="imgaudio" src="../img/caracola.png">
+            <img class="imgaudio" src="../img/caracola.png" onclick="digito('pista1')">
         </div>
     </div>
+        
         <!--mi borbuja derecha-->
     <div class="contderecha">
         <div class="burbuja derecha">
-            <img class="imgaudio" src="../img/caracola.png">
+            <img class="imgaudio" src="../img/caracola.png" onclick="digito('pista2')">
                 <div class="contexto">
                     <a class="texto" href="html/otros-saludos.html">Chogue</a>
                 </div>
@@ -57,7 +58,7 @@
             <div class="contexto">
                 <a class="texto" href="html/resaludaciones.html">Muaz choa umzone</a>
             </div>
-            <img class="imgaudio" src="../img/caracola.png">
+            <img class="imgaudio" src="../img/caracola.png" onclick="digito('pista3')">
         </div>
     </div>
     <div class="contderecha">
@@ -173,6 +174,14 @@
         <p id="boton" onclick="dialogo(preguntas1,respuestas1,event)" class="enter">&#8592;<p>
     </div>
 </div>
-</body>
+
+ <audio id="pista1" src="audio/pantallauno/choa.ogg" preload="auto" type="audio/ogg"></audio>
+<audio id="pista2" src="audio/pantallauno/chogue.ogg" preload="auto" type="audio/ogg"></audio>
+    <audio id="pista3" src="audio/pantallauno/muaz%20choa%20umzone.ogg" preload="auto" type="audio/ogg"></audio>
+    
+    
+    
+    
+    
+    </body>
 </html>
-   
