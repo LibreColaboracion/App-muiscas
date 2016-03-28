@@ -13,21 +13,27 @@ function cambiarpantalla(uno,clase1,dos,clase2){
     p2.className= aparecer;
 }
 // este es el orden de las preguntas
-var  preguntas1 = ['mi _______ es Carlos','choá','Muaz choa umzone','Zehica Carlos Fiquitiva gue nga cha Suba gue','Ipquo ahyca?','Ipquá zeguaque nzinga','Mis ichosqua'];
+var  preguntas1 = ['Choá','Moaz _______ umzone.','ehe.<br>_______ fernando gue.','zehica Diana _______','zehica Pedro gue nga  _____ Bosa gue','____ cha Bosa gue.','Ipqua ______','Juan gue _____ . Ichuta','Ipqua zeguaque ______','______ ahyca','Carlos gue _______. Zepaba','____ ichosqua','Miis _______'];
 // estas son las respuestas
-var respuestas1 = ['nombre','chogue','ehe','zehica carlos fiquitiva gue nga cha suba gue','juan garibello gue ahyca','ipqua, mis ichosqua'];
+var respuestas1 = ['chogue','choá','zehica','gue','cha','nga','ahyca','ahyca','nziga','ipqua','ahyca','mis','ichosqua'];
 
 var preguntas2 =[
     '<img class="tamano" src="../imagenes/mediodia.gif"> <b class="noseve">------</b> _ _ _ _ _ _ <b class="noseve">------</b> _ _ _',
     '<img class="tamano" src="../imagenes/medianoche.gif"> <b class="noseve">------</b> _ _ _ _ _ _ <b class="noseve">------</b> _ _',
     '<img class="tamano" src="../imagenes/amanecer.gif">_ _ _ _ _ _<b class="noseve">----</b> _ _ _<b class="noseve">----</b>_ _ _ _',
     '<img class="tamano" src="../imagenes/atardecer.gif">_ _ _ _ _ _<b class="noseve">----</b> _ _ _<b class="noseve">----</b>_ _ _ _',
-
-                ];
-    var respuestas2 =['chogue sua','chogue za','chogue sua mena','chogue sua meca'];
+    '<img class="tamano" src="../imagenes/joven.svg"> <b class="noseve">------</b> _ _ _ _ _',
+    '<img class="tamano" src="../imagenes/persona.svg"><b class="noseve">----</b> _ _ _ _ _',
+    '<img class="tamano" src="../imagenes/personas.svg"><b class="noseve">----</b> _ _ _ _ _ _ _ _ _',
+    'Muy Bien!! Ya conoces algunos saludos, ahora escribe el saludo o la respuesta que haga falta:<br><br>____ --> Chogue',
+    '___<b class="noseve">--</b>____<b class="noseve">--</b>_______ --> Sua choc aguene',
+    'Za choc aguenua --> __<b class="noseve">--</b>____<b class="noseve">--</b>_______'
+    ];
+    var respuestas2 =['chogue sua','chogue za','chogue sua mena','chogue sua meca','guaza','chibu','chibusgua','choá','sua choc aguenua','za choc aguene'];
 
 var negativa = 0; /*Lleva la cantidad de errores*/
 var numpregunta=0; /*Lleva el avance en las preguntas*/
+var contar=0; /*Lleva el conteo para saber cuando finalizar*/
 
 // Cominza el ejercicio
 function comenzar(id,preg){
@@ -44,16 +50,24 @@ function dialogo(pregun,respu,event) {
     var enter = event.keyCode;
     var input1 = document.getElementById("sub");
     var val = document.getElementById('getexto').value;
+    var aparecer = document.getElementById("tot");
     var cuerpo=document.getElementById("secundario");
     var valor = val.toLowerCase();
     var respuesta = respu[numpregunta];
     if(enter == 13 | enter == undefined){
         console.log("oui",respuesta)
 	if(valor == respuesta){
+        contar++;
+        if(contar <= (pregun.length -1)){
             cuerpo.innerHTML +='<div class="contderecha"><div class="burbuja derecha"><div class="contexto"><p class="texto">'+respuesta+'</p></div></div><img class="caras" src="imagenes/chatmujer.svg"></div>';
             numpregunta++;
             cuerpo.innerHTML +='<div class="contizquierda"><img class="caras" src="imagenes/chathombre.svg"><div class="burbuja izquierda"><div class="contexto"><p class="texto">'+pregun[numpregunta]+'</p></div></div>';
             console.log(respuesta);
+        }
+        if(contar == pregun.length){
+            aparecer.style.display="inherit";
+            input1.style.display ="none";
+        }
         }else{
             negativa++;
             switch(negativa){

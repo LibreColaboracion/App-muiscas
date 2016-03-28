@@ -55,7 +55,6 @@
     background-image: url(../imagenes/fondo6.png);
     background-repeat: no-repeat;
 }
-    
 .fondoestrofa7{
     background-size: cover;
     background-image: url(../imagenes/fondo7.png);
@@ -179,22 +178,14 @@ transition: all 3s;
     position: absolute;
     left: 95%;
 }
-
-
-
-
 .cancion{
     position:fixed;
     font-size:2vw;
     text-align: center;
     color: darkred;
     font-family: cursive;
-    background-image: url(../imagenes/fondo2.jpg);
-
-    
+    background-image: url(../imagenes/fondo2.jpg);    
 }
-
-
 .nina{
       width: 18%;
     position: absolute;
@@ -296,9 +287,6 @@ top: 55%;
 transition: all 3s;
 z-index: 90;
 }
-
-
-
 .lebiqueronda{
 color:firebrick;
 font-family:sans-serif;
@@ -333,47 +321,38 @@ width: 10%;
 position: absolute;
 left: 50%;
 transform: translate(-50%);
-bottom: 10vh;
-    
+bottom: 10vh;    
 }
 
 .lebique{
 width: 10.5%;
 position: absolute;
 left: 14vw;
-bottom: 8vh;
-    
+bottom: 8vh;    
 }
 
 .colibriprincipal{
 width: 15%;
 position: absolute;
 right: 70%;
-top: 6vw;
-    
+top: 6vw;    
 }
-
 .iconoinicio{
 width: 8%;
 position: absolute;
 right: 2%;
 top: 2vw;
 }
-
 .muysccubun{
 width: 11.5%;
 position: absolute;
 left: 30vw;
 bottom: 36vh;
 }
-
 .español{
 width: 10.5%;
 position: absolute;
 right: 30vw;
 bottom: 35vh;
 }
-
-
-
 
