@@ -82,7 +82,7 @@ body{
 .imgaudio{
     width:15%;
 }
-.cambio{
+.cambio, .total{
     width: 70%;
     background-color:#3f51b5;
     border: 0.1em solid #3f51b5;
@@ -90,6 +90,25 @@ body{
     position: absolute;
     left:50%;
     transform: translate(-50%)
+}
+.total{
+    top:23vh;
+    display: none;
+}
+.enunciado{
+    color:white;
+    font-family: "helvetica";
+    font-size: 5.5vh;
+    margin:4%;
+}
+.opciones{
+    width:44%;
+    color:white;
+    font-family: "helvetica";
+    font-size: 6vh;
+    font-weight: 800;
+    float:left;
+    margin: 3%;
 }
 .cambioejer{
     color: white;
