@@ -89,7 +89,7 @@ body{
 .imgaudio{
     width:20%;
 }
-.cambio{
+.cambio, .total{
     width: 70%;
     background-color:#3f51b5;
     border: 0.1em solid #3f51b5;
@@ -97,6 +97,10 @@ body{
     position: absolute;
     left:50%;
     transform: translate(-50%)
+}
+.total{
+    top:25vh;
+    display: none;
 }
 .cambioejer{
     color:white;

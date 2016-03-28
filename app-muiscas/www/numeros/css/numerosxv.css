@@ -108,7 +108,7 @@ body{
 }
 
 .cabecerainfo{
-    background-color: sienna;
+    background-color: red;
     box-shadow: 0 2.5vh 1vh -1vh gray;
     position:fixed;
     width: 100%;
@@ -121,7 +121,7 @@ body{
     position: fixed;
     left: 1%;
     z-index: 60;
-    margin-top: 1%;
+    margin-top: 1.5vh;
 }
 
 #titulotunjo{

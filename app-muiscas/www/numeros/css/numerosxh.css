@@ -117,7 +117,7 @@ body{
 }
 
 .cabecerainfo{
-    background-color: sienna;
+    background-color: red;
     box-shadow: 0 2.5vh 1vh -1vh gray;
     position:fixed;
     width: 100%;
@@ -126,16 +126,16 @@ body{
 
 
 .atrasmenu{
-    width: 7%;
+    width: 9vh;
     position: fixed;
     left: 1%;
     z-index: 60;
-    margin-top: 1%;
+    margin-top: 2vh;
 }
 
 #titulotunjo{
     text-align: center;
-    font-size:12vh;
+    font-size:10vh;
     font-family: "helvetica";
     margin-top: 0;
     color: white;
