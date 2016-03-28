@@ -89,6 +89,12 @@
     font-size: 15vw;
     transition: all 5s;
 }
+.estrofa1{
+position:fixed;
+left:50%;
+top:70%;
+font-size:3vw;
+}
 .estrofa2{
 position:fixed;
 left:50%;
@@ -127,19 +133,26 @@ left:15%;
 top:15%;
 font-size:3vw;
 }
+.estrofa8{
+position:fixed;
+left:10%;
+top:30%;
+font-size:3vw;
+z-index: 90;
+}
 .estrofa9{
 position:fixed;
-left:´11%;
-top:12%;
-font-size:3vw;
-}
-.estrofa1{
-position:fixed;
-left:50%;
-top:70%;
+left:´20%;
+top:25%;
 font-size:3vw;
 }
 
+.estrofa10{
+position:fixed;
+left:50%;
+top:20%;
+font-size:3vw;
+}
 .colibrigif{
 width: 90%;   
 z-index: 50;
