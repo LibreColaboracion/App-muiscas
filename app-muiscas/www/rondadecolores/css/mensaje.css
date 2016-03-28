@@ -1,0 +1,45 @@
+.lebiqueronda{
+    display:none;
+}
+.poeta{
+    display:none;
+}
+.ronda{
+    display:none;
+}
+.lebique{
+    display:none;
+}
+.lebiquezoom{
+    display:none;
+}
+.colibriprincipal{
+    display:none;
+}
+.iconoinicio{
+    display:none;
+}
+.muysccubun{
+    display:none;
+
+}
+.español{
+    display:none;
+}
+.mensaje{
+    background-color:#673ab7;
+    width:70%;
+    border: 1vh solid #673ab7;
+    box-shadow: 2vh 2vh 2vh;
+    position: absolute;
+    left:50%;
+    top:25vh;
+    transform: translate(-50%);
+}
+.mensaje h1{
+    color: white;
+    font-size: 6.5vh;
+    font-family: "helvetica";
+    margin:5%;
+    
+}
