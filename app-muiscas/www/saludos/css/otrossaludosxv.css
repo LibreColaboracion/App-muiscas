@@ -65,3 +65,67 @@ table, th, td{  border-bottom: 1px solid #ddd;
     font-size: 3.5vh;
     
 }
+
+.suba{ width: 55%;
+        
+    
+}
+
+.bosa{ width: 30%;
+    
+}
+
+.contizquierda, .contderecha{
+    display:flex;
+    
+}
+.contderecha{
+    justify-content:flex-end;
+}
+.caras, .burbuja, .texto, .imgaudio{
+  
+    margin:0.5%;
+    padding:0.5%;
+}
+.caras{
+    width:15%;
+    
+}
+.burbuja{
+    width: 100%;
+    border-radius: 10px 10px;
+}
+.izquierda{
+    background-color:#ffff00;
+    border: 0.1em solid #ffff00;
+}
+.derecha{
+    background-color:#ffa726;
+    border: 0.1em solid #ffa726;
+}
+.contexto{
+    width:95%;
+    margin-top:3%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.texto{
+    font-family: "helvetica";
+    font-size:5vw;
+    width:90%;
+    color:#fffff;
+}
+.imgaudio{
+    width:20%;
+   
+}
+
+.imgaudiodr{
+    width:20%;
+float: right;    
+
+}
+.carasdr {
+    width:15%;
+    float: right;
+}
