@@ -122,10 +122,12 @@ table, th, td{  border-bottom: 1px solid #ddd;
 
 .imgaudiodr{
     width:20%;
-float: right;    
+float: right;  
+    margin-top: 20%;
 
 }
 .carasdr {
     width:15%;
     float: right;
+    margin-top: 20%;
 }
