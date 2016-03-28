@@ -432,3 +432,7 @@ z-index: 90;
     z-index: 89;
     width: 55%;
 }
+
+.todoslosanimales{width: 100%;}
+.todoslosanimales img {width: 20%;
+                        margin-top: 30%;}
