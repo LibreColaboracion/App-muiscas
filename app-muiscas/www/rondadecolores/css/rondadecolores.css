@@ -164,6 +164,7 @@ position:fixed;
 left:´11%;
 top:12%;
 font-size:3vw;
+z-index: 90;
 }
 .colibrigif{
     width: 90%;
@@ -371,4 +372,63 @@ font-size:3vw;
     position: absolute;
     right: 30vw;
     bottom: 35vh;
+}
+.planetaestrofa10{
+    width: 25%;
+    position: absolute;
+    left: 7%;
+}
+.caballoes10{
+    width: 40%;
+    
+}
+.inicioes10{
+    position:fixed;
+    left: 75vw;
+    bottom: 0vh;
+    z-index: 89;
+    margin: 0;
+    width: 40%;
+}
+.finales10{
+    position:fixed;
+    left:15vw;
+    bottom: 0vh;
+    transition: all 6s;
+    z-index: 89;
+    width: 55%;
+}
+.papagayoestro10{
+    width: 17%;
+}
+.inicioestro10{
+    position:fixed;
+    right: 10vw;
+    z-index: 90;
+}
+.finalestro10{
+    position:absolute;
+    right:10vw;
+    transition: all 3s;
+    z-index: 90;   
+}
+.serpiente{
+    width: 48%;
+    
+}
+.inicios{
+    position:absolute;
+    left: 75vw;
+    bottom: 0;
+    z-index: 89;
+    margin: 0;
+    width: 40%;
+}
+.finals{
+    position:absolute;
+    left:15vw;
+    bottom: 0;
+    transition: all 6s;
+    z-index: 89;
+    width: 55%;
 }
