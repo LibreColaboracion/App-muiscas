@@ -436,3 +436,48 @@ z-index: 90;
 .todoslosanimales{width: 100%;}
 .todoslosanimales img {width: 20%;
                         margin-top: 30%;}
+
+
+/* Aqui  CSS de poema.html */
+
+h1{color: chocolate;
+    margin-top: -12%;
+    font-size: 9vh;
+    text-align: right;
+}
+
+.botonmenu{width: 8%;}
+
+
+.marco{width: 100%;
+    
+}
+
+.poema {width: 25%;
+        float: left;
+    text-align: center;
+}
+
+.poema img{width: 50%;
+            margin-top: 10%;
+}
+        
+
+
+.texto{width: 100%;
+    height: auto;
+    background-color: beige;
+    
+    text-align: center;
+    
+}
+
+.textopoema{font-size: 5vh;
+        color: saddlebrown;
+    
+        
+
+}
+
+
+
