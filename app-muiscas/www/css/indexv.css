@@ -27,23 +27,38 @@ body{
     margin-top: 13%;
 }
 .botones{
-    width: 50%;
+    width: 41%;
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    background-color: yellowgreen;
+    border-radius: 8%;
+    padding: 1%;
+    float: right;
+    margin: 4% 4% 1% 1%;
+    
+}
+
+.botones img{
+
 }
 .derechos{
+    
 
-    float: left;
 }
 .izquierdos{
+    
 
-    float: right;
 }
 .icono{
     width:100%;
-    margin: auto;
+
 
 }
-.textoicono{
-    text-align:center;
+.textoicono{text-align: center;
+    font-size: 3vh;
+
 }
 
 /*desde aqui css de seccion informacion*/
