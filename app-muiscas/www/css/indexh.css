@@ -45,11 +45,7 @@ body{
 
 .botones img{
 float: right;
-    
-    
 }
-
-
 .derechos{
     width: 45%;
     right: 0;
@@ -78,7 +74,8 @@ float: right;
 
 /*desde aqui css de seccion informacion*/
 
-.iconoinf{width: 48%;
-            
-        
-}
+.iconoinf{width: 48%;       
+  }
+.logo{width:5%;
+    float: left;
+    margin:1.5%;}
