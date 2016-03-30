@@ -79,3 +79,10 @@ float: right;
 .logo{width:5%;
     float: left;
     margin:1.5%;}
+
+
+
+.creditos{text-align: center;
+        font-size: 8vh;
+        font-family: helvetica;
+}
