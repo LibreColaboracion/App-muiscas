@@ -1,5 +1,5 @@
 body{
-    background-color: pink;
+    background-color: peachpuff;
     margin:0;
     padding:0;
 }
@@ -7,7 +7,7 @@ body{
     width: 100%;
     height:9vw;
     margin: auto;
-    background-color:red;
+    background-color:coral;
     position:fixed;
     left:0;
     top:0;
@@ -29,15 +29,35 @@ body{
     margin: 0.5%;
 }
 .botones{
-    width: 10%;
-    position:absolute;
+    position: absolute;
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    height: auto;
+    background-color: yellowgreen;
+    border-radius: 8%;
+    margin: 0% 2% -10% 2%;
+    padding: 1%;
+
+    
+    
+    
 }
+
+.botones img{
+float: right;
+    
+    
+}
+
+
 .derechos{
-    width: 50%;
+    width: 45%;
     right: 0;
 }
 .izquierdos{
-    width: 50%;
+    width: 45%;
     left: 0;
 }
 .abajo{
@@ -47,12 +67,12 @@ body{
     top: 0;
 }
 .icono{
-    width:20vw;
+    width:22vw;
     margin: auto;
-    position:absolute;
-    left:50%;
-    transform: translate(-50%,0%);
+    
 }
 .textoicono{
     text-decoration: none;
+    text-align: center;
+        
 }
