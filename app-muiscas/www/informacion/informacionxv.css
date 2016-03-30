@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+.cabecerainfo{
+    background-color: yellowgreen;
+    box-shadow: 0 2.5vh 1vh -1vh gray;
+    position:fixed;
+  top: 0;
+    width: 100%;
+    height:10vh;
+}
+
+
+
+.atrasmenu{
+    width: 7%;
+    position: fixed;
+    left: 1%;
+    z-index: 60;
+    margin-top: 1.5vh;
+}
+.titulo{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 1.5vh;
+    font-size: 3vh;
+    font-family: helvetica;
+    
+   
+}
+.cuerpo{
+	font-size: 2vh;
+	font-family: helvetica;
+	background-color: "#ff9100";
+	margin: 1%;
+	position: fixed;
+	top: 10.1vh;
+    overflow: auto;
+    height: 80vh;
+
+}
+.foto{
+    width: 5vh;
+    position: fixed;
+}
+.color{
+    background-color: #ffd180;
+}
+
+.contenedoriconos{
+ 	width: 100%;
+ 	position: fixed;
+ 	bottom: 0;
+ 	background-color:white; 
+}
+.iconoinf{
+	width: 25vw;
+	float: left;
+
+}
+
+
