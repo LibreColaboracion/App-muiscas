@@ -74,5 +74,8 @@ float: right;
 .textoicono{
     text-decoration: none;
     text-align: center;
+    font-family: helvetica;
+    font-size: 6vh;
+    
         
 }
