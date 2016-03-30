@@ -12,15 +12,15 @@ body{
     z-index:99;
 }
 .atras{
-    width:5vh;
+    width:6vh;
     height:100%;
     float: left;
-    margin:1vh;
+    margin:1.5%;
 }
 .logopersona{
-    width:7vh;
+    width:9vh;
     float: left;
-    margin:1vh 1% 1% -1%;
+    margin:1.3% 1% 1% -1%;
 }
 .titulo{
     font-family:"helvetica";
@@ -34,86 +34,37 @@ body{
     text-align: right;
     margin-right: 2%;
 }
-.cuerpo1{
+.informacion{
     width: 100%;
-    height: 69%;
+    height: 90vh;
+    overflow: auto;
+    position: absolute;
+    top:10vh;
+}
+.cuerpo{
+    width: 100%;
+    height: 88.5%;
+    overflow: auto;
     position:absolute;
-    top:11%;
+    top:11vh;
 }
-.tamano{
-    width:20%;
-    transition:all 2s;
+#p0{
+    display: none;
 }
-.zoom{
-    width:30%;
-    transition:all 2s;
+#p1{
+    display: none;
 }
-.mediodia{
-    position: absolute;
-    left:50%;
-    transform: translate(-50%);
+#p2{
+    display: none;
 }
-.atardecer{
-    position: absolute;
-    top:40%;
-    left:
+#p3{
+    display: none;
 }
-.amanecer{
-    position: absolute;
-    top:40%;
-    right: 1%;
+#p4{
+    display: none;
 }
-.medianoche{
-    position: absolute;
-    top: 75%;
-    left:50%;
-    transform: translate(-50%);
-}
-.contsaludos{
-    width:95%;
-    height: 15%;
-    border: solid 1vh black;
-    overflow:auto;
-    position:absolute;
-    bottom:1%;
-    left:50%;
-    transform: translate(-50%);
-}
-.normal {
-    width:100%;
-    border: 1px solid #000;
-}
-.normal th, .normal td {
-    font-size: 7vw;
-    border: 0.7vw solid #000;
-    width:100%;
-}
-.explicacion{
-    width:50%;
-    height:30%;
-    border: 0.7vw solid #000;
-    border-radius: 150vw 150vw;
-    overflow:auto;
-    position:absolute;
-    top:31vh;
-    left:50%;
-    transform: translate(-50%);
-    z-index:80;
-}
-.saludo{
-    color:red;
-    font-size:7vw;
-    font-family:"helvetica";
-    text-align:center;
-    margin:10%;
-    line-height:0.9;
-}
-.textoexplicacion{
-    font-size:4vw;
-    font-family:"helvetica";
-    text-align:center;
-    margin:2%;
-    line-height:1;
+#p5{
+    display: none;
 }
 /* Cambio de pantalla */
 .cambio, .total{
@@ -128,14 +79,6 @@ body{
 }
 .total{
     display: none;
-}
-.cuerpo{
-    background-color:#ffffff;
-    width: 100%;
-    height:100%;
-    overflow:hidden;
-    position:absolute;
-    z-index:80;
 }
 .ejercicio{
     width:100%;
@@ -177,7 +120,7 @@ body{
 .texto{
     font-family: "helvetica";
     font-size:5vw;
-    width:100%;
+    width:99%;
     color:#fffff;
 }
 .noseve{
@@ -203,6 +146,10 @@ body{
     font-weight: 800;
     float:left;
     margin: 3%;
+}
+.negro{
+    color: black;
+    margin-left: 20vw; 
 }
 .subministrar{
     border-top: 1vw solid #9e9e9e;
