@@ -73,7 +73,12 @@ float: right;
     text-decoration: none;
     text-align: center;
     font-family: helvetica;
-    font-size: 6vh;
-    
+    font-size: 6vh;        
+}
+
+/*desde aqui css de seccion informacion*/
+
+.iconoinf{width: 48%;
+            
         
 }
