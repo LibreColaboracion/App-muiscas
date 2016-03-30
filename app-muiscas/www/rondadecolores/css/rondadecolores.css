@@ -229,7 +229,7 @@ z-index: 90;
     position: absolute;
     left: 25%;
     bottom: -10%;
-    z-index: 90;
+    z-index: 1;
 }
 .colibri2{
     width: 7%;
@@ -274,6 +274,7 @@ z-index: 90;
 }
 .caballo1{
     width: 48%;
+    z-index: 500;
     
 }
 .inicioc{
