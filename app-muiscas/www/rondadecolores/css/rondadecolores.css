@@ -84,18 +84,25 @@
     width: 20%;
 }
 .cuchavivap{
+    color:firebrick;
+    font-family:sans-serif;
     position:absolute;
-    left: 25%;
-    top: 25%;
-    font-size: 10vw;
-    transition: all 5s;
+    left:50%;
+    top: 20vh;
+    transform: translate(-50%);
+    font-size: 3vw;
+    transition: all 7s;
 }
 .cuchavivazoom{
+    color:darkorange;
+    font-family:sans-serif;
     position: absolute;
-    left: 15%;
-    top:20%;
-    font-size: 15vw;
-    transition: all 5s;
+    left: 50%;
+    top: 10vh;
+    transform: translate(-50%);
+    font-size: 10vw;
+    transition: all 8s;
+    margin-top: 0;
 }
 .estrofa1{
 position:fixed;
@@ -105,7 +112,7 @@ font-size:3vw;
 }
 .estrofa2{
     position:fixed;
-    left:50%;
+    left:8%;
     top:70%;
     font-size:3vw;
     z-index: 90;
@@ -212,6 +219,9 @@ z-index: 90;
     font-family: cursive;
     background-image: url(../imagenes/fondo2.jpg);
 }
+
+/*personajes de las estrofas*/
+
 .nina{
     width: 18%;
     position: absolute;
@@ -317,19 +327,58 @@ z-index: 90;
     transition: all 3s;
     z-index: 90;
 }
+.papagayoestro10{
+    width: 17%;
+}
+.inicioestro10{
+    position:fixed;
+    right: 10vw;
+    z-index: 90;
+}
+.finalestro10{
+    position:absolute;
+    right:10vw;
+    transition: all 3s;
+    z-index: 90;   
+}
+.serpiente1{
+    width: 80%;
+    z-index: 90;
+}
+.inicios{
+    position:absolute;
+    left: 75vw;
+    bottom: 0;
+    z-index: 89;
+    margin: 0;
+    width: 40%;
+}
+.finals{
+    position:absolute;
+    left:15vw;
+    bottom: 0;
+    transition: all 6s;
+    z-index: 89;
+    width: 55%;
+}
+
+/*hasta aquí van los personajes*/
+
+
+/* 329 página principal de ronda de colores*/
+
 .lebiqueronda{
-    color:firebrick;
+    color:#ec407a;
     font-family:sans-serif;
     position:absolute;
-    left: 50%;
-    top: 9vh;
+    left:50%;
+    top: 20vh;
     transform: translate(-50%);
     font-size: 3vw;
-    transition: all 5s;
+    transition: all 1s;
 }
 .lebiquezoom{
-    color:darkorange;
-    font-family:sans-serif;
+   font-family:sans-serif;
     position: absolute;
     left: 50%;
     top: 10vh;
@@ -407,39 +456,8 @@ z-index: 90;
     z-index: 89;
     width: 55%;
 }
-.papagayoestro10{
-    width: 17%;
-}
-.inicioestro10{
-    position:fixed;
-    right: 10vw;
-    z-index: 90;
-}
-.finalestro10{
-    position:absolute;
-    right:10vw;
-    transition: all 3s;
-    z-index: 90;   
-}
-.serpiente1{
-    width: 80%;
-    z-index: 90;
-}
-.inicios{
-    position:absolute;
-    left: 75vw;
-    bottom: 0;
-    z-index: 89;
-    margin: 0;
-    width: 40%;
-}
-.finals{
-    position:absolute;
-    left:15vw;
-    bottom: 0;
-    transition: all 6s;
-    z-index: 89;
-    width: 55%;
+#lebique1{
+    transition:all 0.8s;
 }
 
 .todoslosanimales{width: 100%;}
@@ -449,11 +467,7 @@ z-index: 90;
 
 /* Aqui  CSS de poema.html */
 
-h1{color: chocolate;
-    margin-top: -12%;
-    font-size: 9vh;
-    text-align: right;
-}
+
 
 .botonmenu{width: 8%;}
 
@@ -466,12 +480,6 @@ h1{color: chocolate;
         float: left;
     text-align: center;
 }
-
-.poema img{width: 50%;
-            margin-top: 10%;
-}
-        
-
 
 .texto{width: 100%;
     height: auto;
