@@ -144,9 +144,10 @@ font-size:3vw;
 }
 .estrofa7{
     position:fixed;
-    left:15%;
+    left:50%;
     top:15%;
     font-size:3vw;
+    z-index: 90;
 }
 .estrofa8{
 position:fixed;
@@ -258,7 +259,7 @@ z-index: 90;
     position: absolute;
     left: 25%;
     bottom: -68%;
-    z-index:10;
+    z-index:6;
 }
 #colibri{
    z-index: 90;
@@ -314,10 +315,10 @@ z-index: 90;
     z-index: 90;
 }
 
-.buhofinal{
+.buho1final{
     position: fixed;
-    left: 50vw;
-    bottom: 2vw;
+    left: 13vw;
+    bottom: 4vw;
     transition: all 3s;
     z-index: 90;
     
