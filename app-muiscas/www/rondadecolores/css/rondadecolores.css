@@ -82,9 +82,9 @@
     background-image: url(../imagenes/fondo9.jpg);
     background-repeat: no-repeat;
 }
-.fondorondadecolores{
+.fondorondadecoloresaudio{
      background-size: cover;
-    background-image: url(../imagenes/fondo7.png);
+    background-image: url(../imagenes/fondo9-2.jpg);
     background-repeat: no-repeat;
 }
 .mitamaño{
@@ -656,16 +656,16 @@ left: 27%;
     
 }
 .buhito{
-width:8%;
+width:6%;
 position: absolute;
-top: 40%;
-left: 8%;
+top: 51%;
+left: 13%;
 }
 .papagayito{
-width:5%;
+width:3%;
 position: absolute;
-top: 34%;
-left: 27%;
+top: 60%;
+left: 23%;
 }
 .ninita{
     width: 8%;
@@ -693,7 +693,6 @@ left: 27%;
     float: right;
     margin-right: 4%;
     
-  
 
 }
 
@@ -706,6 +705,7 @@ left: 27%;
     width: 25%;
     float: left;
     text-align: center;
+    z-index: 90;
 }
 
 .texto{
@@ -714,12 +714,14 @@ left: 27%;
     background-color: beige;
     
     text-align: center;
+    z-index: 90;
     
 }
 
 .textopoema{
     font-size: 9vh;
     color: saddlebrown;
+    z-index: 90;
             
 
 }
