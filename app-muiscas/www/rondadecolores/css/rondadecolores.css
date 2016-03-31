@@ -82,6 +82,11 @@
     background-image: url(../imagenes/fondo9.jpg);
     background-repeat: no-repeat;
 }
+.fondorondadecolores{
+     background-size: cover;
+    background-image: url(../imagenes/fondo7.png);
+    background-repeat: no-repeat;
+}
 .mitamaño{
     width: 20%;
 }
@@ -176,6 +181,8 @@ top:12%;
 font-size:3vw;
 z-index: 90;
 }
+
+
 .colibrigif{
     width: 90%;
     z-index: 50;
@@ -388,20 +395,20 @@ z-index: 90;
     margin-top: 0;
 }
 .poeta{
-    width: 9%;
+    width: 13%;
     position: absolute;
     right: 15vw;
     bottom: 10vh;
 }
 .ronda{
-    width: 10%;
+    width: 15%;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
     bottom: 10vh;
 }
 .lebique{
-    width: 10.5%;
+    width: 15.5%;
     position: absolute;
     left: 14vw;
     bottom: 8vh;
@@ -420,13 +427,13 @@ z-index: 90;
     z-index: 90;
 }
 .muysccubun{
-    width: 11.5%;
+    width: 15%;
     position: absolute;
     left: 30vw;
-    bottom: 36vh;
+    bottom: 40vh;
 }
 .español{
-    width: 10.5%;
+    width: 15%;
     position: absolute;
     right: 30vw;
     bottom: 35vh;
