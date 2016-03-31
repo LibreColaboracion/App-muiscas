@@ -32,6 +32,7 @@ body{
    
 }
 .cuerpo{
+    width: 100%;
 	font-size: 2vh;
 	font-family: helvetica;
 	background-color: "#ff9100";
@@ -42,10 +43,23 @@ body{
     height: 80vh;
 
 }
-.foto{
-    width: 5vh;
-    position: fixed;
+
+.color {width: 95%;
+    text-align: justify;
+
 }
+.color img{
+    width: 100%;
+}
+
+.color p {margin: 1% 1% 1% 1%;
+
+}
+
+
+.fotos2 {width: 48%;
+}
+
 .color{
     background-color: #ffd180;
 }
@@ -57,9 +71,9 @@ body{
  	background-color:white; 
 }
 .iconoinf{
-	width: 25vw;
+	width: 20%;
 	float: left;
 
 }
 
-
+.cola {text-align: center;}
