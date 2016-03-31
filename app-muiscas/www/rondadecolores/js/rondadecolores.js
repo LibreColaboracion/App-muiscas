@@ -45,3 +45,25 @@ function escuchar(id){
                     break;
                 } 
          }
+function rana(id,clase1,clase2,clase3,clase4,clase5){
+     var a = document.getElementById(id);
+    contador++
+    switch(contador){
+        case 1:
+                a.className = (clase1);
+        break;
+        case 2:
+                a.className = (clase2);
+        break;
+        case 3:
+                a.className = (clase3);
+        break;
+        case 4:
+                a.className = (clase4);
+        break;
+        case 5:
+                a.className = (clase5);
+                contador=0;
+        break;
+    }
+}
