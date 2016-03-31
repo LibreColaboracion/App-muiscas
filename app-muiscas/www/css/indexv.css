@@ -21,6 +21,7 @@ body{
     font-family:"helvetica";
     font-size: 6vw;
     line-height: 0;
+    font-weight:bolder;
 }
 .cuerpo {
     width: 100%;

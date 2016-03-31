@@ -1,5 +1,5 @@
 body{
-    background-color: peachpuff;
+    background-color: #FDDD04;
     margin:0;
     padding:0;
 }
@@ -7,13 +7,14 @@ body{
     width: 100%;
     height:9vw;
     margin: auto;
-    background-color:coral;
+    background-color:black;
     position:fixed;
     left:0;
     top:0;
     z-index:99;
 }
 .titulos {
+    color:white;
     font-weight:bolder;
     font-family:"helvetica";
     font-size: 4vw;

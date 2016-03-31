@@ -17,12 +17,13 @@ body{
     float: left;
     margin:1.5%;
 }
-.titulos {
+.titulo {
+    color:white;
     font-weight:bolder;
     font-family:"helvetica";
     font-size: 4vw;
     text-align:center;
-    padding-top:2%;
+    line-height:0;
 }
 .cuerpo{
     width: 100%;
@@ -118,7 +119,6 @@ body{
 
 .cabecerainfo{
     background-color: red;
-    box-shadow: 0 2.5vh 1vh -1vh gray;
     position:fixed;
     width: 100%;
     height:18vh;}
