@@ -1,5 +1,7 @@
 .mensaje{
     display:none;
+
+
 }
 .gris{
     filter: grayscale(0); /* Color */
