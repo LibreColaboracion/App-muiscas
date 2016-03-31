@@ -51,39 +51,11 @@ body{
 #p0{
     display: flex;
 }
-#p1{
+#p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10, #p11, #p12,
+#p13, #p14, #p15, #p16, #p17{
     display: none;
 }
-#p2{
-    display: none;
-}
-#p3{
-    display: none;
-}
-#p4{
-    display: none;
-}
-#p5{
-    display: none;
-}
-#p6{
-    display: none;
-}
-#p7{
-    display: none;
-}
-#p8{
-    display: none;
-}
-#p9{
-    display: none;
-}
-#p10{
-    display: none;
-}
-#p11{
-    display: none;
-}
+
 /* Cambio de pantalla */
 .cambio, .total{
     width: 70%;
@@ -140,6 +112,11 @@ body{
     font-size:5vw;
     width:99%;
     color:#fffff;
+}
+.imagenchat{
+    width: 30%;
+    margin:0% 1% 0% 25vw;
+    display:flex;
 }
 .noseve{
     opacity: 0;
