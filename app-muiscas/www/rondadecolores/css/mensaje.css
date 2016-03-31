@@ -1,3 +1,23 @@
+.mensaje{
+    background-color:#673ab7;
+    width:70%;
+    border: 1vh solid #673ab7;
+    box-shadow: 2vh 2vh 2vh;
+    position: absolute;
+    left:50%;
+    top:25vh;
+    transform: translate(-50%);
+}
+.mensaje h1{
+    color: white;
+    font-size: 6.5vh;
+    font-family: "helvetica";
+    margin:5%;
+    
+}
+body{background-color: #F18616;
+}
+
 .lebiqueronda{
     display:none;
 }
@@ -26,20 +46,207 @@
 .español{
     display:none;
 }
-.mensaje{
-    background-color:#673ab7;
-    width:70%;
-    border: 1vh solid #673ab7;
-    box-shadow: 2vh 2vh 2vh;
-    position: absolute;
-    left:50%;
-    top:25vh;
-    transform: translate(-50%);
+
+/*colocaré a todas las clases display: none*/
+
+
+
+
+.mitamaño{
+    display:none;
 }
-.mensaje h1{
-    color: white;
-    font-size: 6.5vh;
-    font-family: "helvetica";
-    margin:5%;
+.cuchavivap{
+    display:none;
+}
+
+.estrofa1{
+display:none;
+}
+.estrofa2{
+    display:none;
+}
+.estrofa3{
+    display:none;
+}
+.estrofa4{
+    display:none;
+}
+.estrofa5{
+    display:none;
+}
+.estrofa6{
+   display:none;
+}
+.estrofa7{
+    display:none;
+}
+.estrofa8{
+display:none;
+}
+.estrofa9{
+display:none;
+}
+
+.estrofa10{
+display:none;
+}
+
+
+.colibrigif{
+    display:none;
+}
+
+.icono{
+    display:none;
+}
+.izquierda{
+    display:none;
+}
+.derecha{
+    display:none;
+}
+.numeros{
+    display:none;
+}
+.muysccubun{
+    display:none;
+}
+.cancion{
+   display:none;
+}
+
+/*personajes de las estrofas*/
+
+.nina{
+    display:none;
+
+}
+.planeta{
+    display:none;
+}
+.arcoiris{
+   display:none;
+}
+.colibri2{
+    display:none;
+}
+.coli3{
+   display:none;
+}
+.arcoiris2{
+    display:none;
+}
+#colibri{
+   display:none;
+}
+.derecha{
+    display:none;
+}
+.papagayo1{
+    display:none;
+}
+
+.caballo1{
+    display:none;
+}
+
+
+.buho1{
+    display:none;
+}
+
+
+.papagayoestro10{
+   display:none;
+}
+ 
+.serpiente1{
+   display:none;
+}
+
+
+/*hasta aquí van los personajes*/
+
+
+/* 329 página principal de ronda de colores*/
+
+.lebiqueronda{
+   display:none;
+}
+.lebiquezoom{
+   display:none;
+}
+.poeta{
+    display:none;
+}
+.ronda{
+    display:none;
+}
+.lebique{
+    display:none;
+}
+.colibriprincipal{
+    display:none;
+}
+.iconoinicio{
+    display:none;
+}
+.muysccubun{
+    display:none;
+}
+.español{
+    display:none;
+}
+.planetaestrofa10{
+   display:none;
+}
+.caballoes10{
+   display:none;
     
 }
+
+#lebique1{
+    display:none;
+}
+
+.todoslosanimales{
+    display:none;
+}
+.todoslosanimales img {
+   display:none;
+}
+
+
+/* Aqui  CSS de poema.html */
+
+
+
+.menuarriba{
+    display:none;
+}
+.menuarriba img{
+    display:none;
+    
+
+}
+
+.marco{
+    display:none;
+    
+}
+
+.poema {
+   display:none;
+}
+
+.texto{
+    display:none;
+    
+}
+
+.textopoema{
+    display:none;
+    
+    
+}
+

@@ -4,7 +4,7 @@ body{
 }
 .cabecera {
     width: 100%;
-    background-color:red;
+    background-color:#1AB1E1;
     position:fixed;
     left:0;
     top:0;
@@ -37,6 +37,9 @@ body{
 .horizontal img{
     width:100%;
     display:block
+}
+.vertical{
+    display: none;
 }
 .verticalmenu{
     display: none;

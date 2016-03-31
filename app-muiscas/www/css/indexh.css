@@ -69,7 +69,8 @@ float: right;
     text-decoration: none;
     text-align: center;
     font-family: helvetica;
-    font-size: 6vh;        
+    font-size: 6vh;  
+    font-weight: 700;      
 }
 
 /*desde aqui css de seccion informacion*/
@@ -85,4 +86,15 @@ float: right;
 .creditos{text-align: center;
         font-size: 8vh;
         font-family: helvetica;
+}
+
+.color1{background-color: #F18616;
+}
+
+.color2{background-color: #FFFFFF
+;
+}
+.color3{background-color: #1AB1E1;
+}
+.color4{background-color: #95C11E;
 }

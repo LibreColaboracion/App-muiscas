@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+.cabecerainfo{
+    background-color: yellowgreen;
+    box-shadow: 0 2.5vh 1vh -1vh gray;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    height:14vh;
+}
+
+
+
+.atrasmenu{
+    width: 4%;
+    position: fixed;
+    left: 1%;
+    z-index: 60;
+    margin-top: 1.5vh;
+}
+.titulo{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 1%;
+    font-size: 8vh;
+    font-family: helvetica;
+    
+   
+}
+.cuerpo{
+    width: 100%;
+	font-size: 3vh;
+	font-family: helvetica;
+	background-color: "#ff9100";
+	margin: 1%;
+	position: fixed;
+	top: 10.1vh;
+    overflow: auto;
+    height: 80vh;
+
+}
+
+.color {width: 99%;
+    text-align: justify;
+
+}
+.color img{
+    width: 35%;
+    float: left;
+    margin-top: .5em;
+  margin-bottom: .5em;
+  margin-left: 1em;
+  margin-right: .5em;
+}
+
+.color p {margin: 1% 1% 1% 1%;
+
+}
+
+
+.fotos2 {width: 100%;
+        
+}
+
+.color{
+    background-color: #ffd180;
+}
+
+.contenedoriconos{
+ 	width: 100%;
+ 	position: fixed;
+ 	bottom: 0;
+ 	background-color:white; 
+}
+.iconoinf{
+	width: 20%;
+	float: left;
+
+}
+
+.cola {text-align: center;}
