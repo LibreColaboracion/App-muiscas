@@ -467,8 +467,16 @@ z-index: 90;
 
 
 
-.botonmenu{width: 8%;}
+.menuarriba{width: 100%;
 
+}
+.menuarriba img{width: 8%;
+            float: right;
+            margin-right: 4%;
+    
+    
+
+}
 
 .marco{width: 100%;
     
