@@ -513,9 +513,13 @@ z-index: 90;
     transition:all 0.8s;
 }
 
-.todoslosanimales{width: 100%;}
-.todoslosanimales img {width: 20%;
-                        margin-top: 30%;}
+.animalesdetierra{
+    width: 100%;
+}
+.aves{
+    width: 10%;
+    margin-top: 30%;
+                    }
 
 
 /* Aqui  CSS de poema.html */
@@ -525,11 +529,12 @@ z-index: 90;
 .menuarriba{width: 100%;
 
 }
-.menuarriba img{width: 8%;
-            float: right;
-            margin-right: 4%;
+.menuarriba img{
+    width: 8%;
+    float: right;
+    margin-right: 4%;
     
-    
+  
 
 }
 
