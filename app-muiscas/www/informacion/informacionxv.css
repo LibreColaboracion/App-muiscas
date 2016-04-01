@@ -1,11 +1,11 @@
 body{
+  background-color: white;
   margin: 0;
   padding: 0;
   
 }
 .cabecerainfo{
     background-color: yellowgreen;
-    box-shadow: 0 2.5vh 1vh -1vh gray;
     position:fixed;
   top: 0;
     width: 100%;
@@ -28,7 +28,7 @@ body{
     left: 50%;
     transform: translate(-50%);
     top: 0.8vh;
-    font-size: 10vw;
+    font-size: 8.5vw;
     font-family: helvetica;
     
    
@@ -42,7 +42,7 @@ body{
 	position: fixed;
 	top: 10.1vh;
     overflow: auto;
-    height: 85vh;
+    height: 88vh;
 
 }
 
@@ -74,3 +74,7 @@ body{
 }
 
 .cola {text-align: center;}
+.iconoli{
+    width: 40vw;
+    margin-left: 25vw;
+}
