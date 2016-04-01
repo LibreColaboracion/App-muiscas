@@ -74,18 +74,23 @@
 
 .fondoestrofa9{
     background-size: cover;
-    background-image: url(../imagenes/fondo9.jpg);
+    background-image: url(../imagenes/fondo9-2.jpg);
     background-repeat: no-repeat;
 }
 .fondoestrofa10{
     background-size: cover;
-    background-image: url(../imagenes/fondo9.jpg);
+    background-image: url(../imagenes/fondo9-2.jpg);
+    background-repeat: no-repeat;
+}
+.fondorondadecoloresaudio{
+     background-size: cover;
+    background-image: url(../imagenes/fondo9-2.jpg);
     background-repeat: no-repeat;
 }
 .fondorondadecolores{
-     background-size: cover;
+    background-size: cover;
     background-image: url(../imagenes/fondo7.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
 }
 .mitamaño{
     width: 20%;
@@ -165,9 +170,10 @@ z-index: 90;
 }
 .estrofa9{
 position:fixed;
-left:´20%;
+left: 60%;
 top:25%;
 font-size:3vw;
+    z-index: 90;
 }
 
 .estrofa10{
@@ -184,7 +190,7 @@ z-index: 90;
 
 
 .colibrigif{
-    width: 90%;
+    width: 60%;
     z-index: 50;
 }
 .inicio{
@@ -370,49 +376,17 @@ z-index: 90;
 }
 .rana1{
     position: absolute;
-     width: 10%;
+     width: 8%;
     z-index: 200;
     bottom: 5vh;
+    left: 12%;
+}
 
+.mundo1{
+    position: absolute;
+    left: 17%;
 }
-.movimiento1{
-    position:absolute;
-     right: 10vw;
-    bottom: 0;
-    margin: 0;
-    width: 10%;
-   
-}
-.movimiento2{
-    position:absolute;
-     right: 10vw;
-    bottom: 0;
-    z-index: 89;
-    margin: 0;
-    
-}
-.movimiento3{
-    position:absolute;
-     right: 10vw;
-    bottom: 0;
-    margin: 0;
-    
-}
-.movimiento4{
-    position:absolute;
-     right: 10vw;
-    bottom: 0;
 
-    margin: 0;
-    
-}
-.movimiento5{
-    position:absolute;
-     right: 10vw;
-    bottom: 0;
-    margin: 0;
-   
-}
 
 
 /*hasta aquí van los personajes*/
@@ -513,10 +487,167 @@ z-index: 90;
     transition:all 0.8s;
 }
 
-.todoslosanimales{width: 100%;}
-.todoslosanimales img {width: 20%;
-                        margin-top: 30%;}
+.terrestres{
+     position:absolute;
+    left: 25vw;
+    bottom: 0;
+    z-index: 89;
+    margin: 0;
+    width: 26%;
 
+}
+.caballoterrestre{
+     position:absolute;
+    left: 65vw;
+    bottom: 0;
+    z-index: 89;
+    margin: 0;
+    width: 15%;
+
+}
+.ave{
+    width: 10%;
+    position: absolute;
+    z-index: 50;
+    left: 70%;
+    
+}
+.ave2{
+    width: 10%;
+    position: absolute;
+    z-index: 50;
+    left: 50%;
+    top: 40%;
+    
+}
+.mundo{
+     width: 25%;
+    position: absolute;
+    right: 40%;
+    top: 2vw;
+    
+}
+.buho9{
+width:8%;
+position: absolute;
+top: 40%;
+left: 8%;
+}
+.papagayo9{
+width:8%;
+position: absolute;
+top: 34%;
+left: 27%;
+}
+.nina9{
+    width: 20%;
+    position: absolute;
+    left: 10%;  
+}
+.rana9{
+    position: absolute;
+     width: 5%;
+    z-index: 200;
+    bottom: 5vh;
+    left: 15%;
+
+}
+
+    
+
+
+/*aqui colocaré el efecto para el arcoirirs estrofa dos*/
+
+.arcoirisestrofa2{
+     width: 88%;
+    position: absolute;
+    left: 25%;
+    bottom: -68%;
+    z-index:6;
+    
+}
+.inicioarcoiris{
+    width: 88%;
+    position: absolute;
+    left: 25%;
+    bottom: -68%;
+
+}
+.finalarcoiris{
+    width: 88%;
+    position: absolute;
+    left: 25%;
+    bottom: -68%;
+    
+}
+
+
+/*aquí fondo rondadecolores audios completo*/
+.culebra{
+     position:absolute;
+    left: 25vw;
+    bottom: 0;
+    z-index: 89;
+    margin: 0;
+    width: 10%;
+
+}
+.caballito{
+     position:absolute;
+    left: 65vw;
+    bottom: 0;
+    z-index: 89;
+    margin: 0;
+    width: 10%;
+
+}
+.avecita{
+    width: 5%;
+    position: absolute;
+    z-index: 50;
+    left: 70%;
+    
+}
+.avecita2{
+    width: 5%;
+    position: absolute;
+    z-index: 50;
+    left: 50%;
+    top: 40%;
+    
+}
+.mundito{
+     width: 10%;
+    position: absolute;
+    right: 85%;
+    top: 12vw;
+    
+}
+.buhito{
+width:6%;
+position: absolute;
+top: 51%;
+left: 13%;
+}
+.papagayito{
+width:3%;
+position: absolute;
+top: 60%;
+left: 23%;
+}
+.ninita{
+    width: 8%;
+    position: absolute;
+    left: 3%;  
+}
+.ranita{
+    position: absolute;
+     width: 5%;
+    z-index: 200;
+    bottom: 5vh;
+    left: 10%;
+
+}
 
 /* Aqui  CSS de poema.html */
 
@@ -525,35 +656,41 @@ z-index: 90;
 .menuarriba{width: 100%;
 
 }
-.menuarriba img{width: 8%;
-            float: right;
-            margin-right: 4%;
-    
+.menuarriba img{
+    width: 8%;
+    float: right;
+    margin-right: 4%;
     
 
 }
 
-.marco{width: 100%;
+.marco{
+    width: 60%;
     
 }
 
-.poema {width: 25%;
-        float: left;
+.poema {
+    width: 25%;
+    float: left;
     text-align: center;
+    z-index: 90;
 }
 
-.texto{width: 100%;
-    height: auto;
+.texto{
+    width: 100%;
+    height: 50%;
     background-color: beige;
     
     text-align: center;
+    z-index: 90;
     
 }
 
-.textopoema{font-size: 5vh;
-        color: saddlebrown;
-    
-        
+.textopoema{
+    font-size: 9vh;
+    color: saddlebrown;
+    z-index: 90;
+            
 
 }
 
