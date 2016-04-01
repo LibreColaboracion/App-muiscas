@@ -64,14 +64,9 @@ body{
     background-color: #ffd180;
 }
 
-.contenedoriconos{
- 	width: 100%;
- 	position: fixed;
- 	bottom: 0;
- 	background-color:white; 
-}
+
 .iconoinf{
-	width: 20%;
+	width: 47%;
 	float: left;
 
 }
