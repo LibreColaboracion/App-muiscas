@@ -1,4 +1,4 @@
-.mensaje{
+﻿.mensaje{
     display:none;
 
 
@@ -11,7 +11,7 @@
 .tamaño{
     width:300px;
 }
-.pequeña{
+.pequenia{
     width:170px;
     transition:all 4s;
 }
@@ -30,6 +30,9 @@
     opacity: 1;
 }
 /*Nuestros estilos*/
+body{
+    background-color: white;
+}
 .fondoestrofa1{
     background-size: cover;
     background-image: url(../imagenes/fondo1.jpg);
@@ -90,9 +93,9 @@
 .fondorondadecolores{
     background-size: cover;
     background-image: url(../imagenes/fondo7.png);
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 }
-.mitamaño{
+.mitamanio{
     width: 20%;
 }
 .cuchavivap{
@@ -178,12 +181,8 @@ font-size:3vw;
 
 .estrofa10{
 position:fixed;
-left:50%;
-top:20%;
-font-size:3vw;
-position:fixed;
-left:´11%;
-top:12%;
+left:35vw;
+top:8vh;
 font-size:3vw;
 z-index: 90;
 }
@@ -228,12 +227,13 @@ z-index: 90;
     left: 95%;
 }
 .cancion{
+    margin-top:5%;
     position:fixed;
     font-size:2vw;
     text-align: center;
     color: darkred;
-    font-family: cursive;
-    background-image: url(../imagenes/fondo2.jpg);
+    font-family: 'cursive';
+    z-index:95;
 }
 
 /*personajes de las estrofas*/
@@ -301,7 +301,7 @@ z-index: 90;
 .caballo1{
     width: 48%;
     z-index: 500;
-    
+
 }
 .inicioc{
     position:absolute;
@@ -336,7 +336,7 @@ z-index: 90;
     bottom: 4vw;
     transition: all 3s;
     z-index: 90;
-    
+
 }
 
 
@@ -352,7 +352,7 @@ z-index: 90;
     position:absolute;
     right:10vw;
     transition: all 3s;
-    z-index: 90;   
+    z-index: 90;
 }
 .serpiente1{
     width: 80%;
@@ -444,7 +444,7 @@ z-index: 90;
     position: absolute;
     right: 2%;
     top: 2vw;
-    z-index: 90;
+    z-index: 95;
 }
 .muysccubun{
     width: 15%;
@@ -452,7 +452,7 @@ z-index: 90;
     left: 30vw;
     bottom: 40vh;
 }
-.español{
+.espaniol{
     width: 15%;
     position: absolute;
     right: 30vw;
@@ -465,7 +465,7 @@ z-index: 90;
 }
 .caballoes10{
     width: 40%;
-    
+
 }
 .inicioes10{
     position:fixed;
@@ -510,7 +510,7 @@ z-index: 90;
     position: absolute;
     z-index: 50;
     left: 70%;
-    
+
 }
 .ave2{
     width: 10%;
@@ -518,14 +518,14 @@ z-index: 90;
     z-index: 50;
     left: 50%;
     top: 40%;
-    
+
 }
 .mundo{
      width: 25%;
     position: absolute;
     right: 40%;
     top: 2vw;
-    
+
 }
 .buho9{
 width:8%;
@@ -542,7 +542,7 @@ left: 27%;
 .nina9{
     width: 20%;
     position: absolute;
-    left: 10%;  
+    left: 10%;
 }
 .rana9{
     position: absolute;
@@ -553,7 +553,7 @@ left: 27%;
 
 }
 
-    
+
 
 
 /*aqui colocaré el efecto para el arcoirirs estrofa dos*/
@@ -564,7 +564,7 @@ left: 27%;
     left: 25%;
     bottom: -68%;
     z-index:6;
-    
+
 }
 .inicioarcoiris{
     width: 88%;
@@ -578,7 +578,7 @@ left: 27%;
     position: absolute;
     left: 25%;
     bottom: -68%;
-    
+
 }
 
 
@@ -606,7 +606,7 @@ left: 27%;
     position: absolute;
     z-index: 50;
     left: 70%;
-    
+
 }
 .avecita2{
     width: 5%;
@@ -614,14 +614,14 @@ left: 27%;
     z-index: 50;
     left: 50%;
     top: 40%;
-    
+
 }
 .mundito{
      width: 10%;
     position: absolute;
     right: 85%;
     top: 12vw;
-    
+
 }
 .buhito{
 width:6%;
@@ -638,7 +638,7 @@ left: 23%;
 .ninita{
     width: 8%;
     position: absolute;
-    left: 3%;  
+    left: 3%;
 }
 .ranita{
     position: absolute;
@@ -660,13 +660,13 @@ left: 23%;
     width: 8%;
     float: right;
     margin-right: 4%;
-    
+
 
 }
 
 .marco{
     width: 60%;
-    
+
 }
 
 .poema {
@@ -680,17 +680,17 @@ left: 23%;
     width: 100%;
     height: 50%;
     background-color: beige;
-    
+
     text-align: center;
     z-index: 90;
-    
+
 }
 
 .textopoema{
     font-size: 9vh;
     color: saddlebrown;
     z-index: 90;
-            
+
 
 }
 

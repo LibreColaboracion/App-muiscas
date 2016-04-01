@@ -78,7 +78,9 @@ body{
 	float: left;
 
 }
-
+.instituciones{
+    padding: 15% 0.2% 85% 1%; 
+}
 .cola {text-align: center;}
 
 .iconoli{
@@ -89,5 +91,5 @@ h1{
     text-align: center;
 }
 b{
-    margin-left: 40vw;
+    margin-left: 35vw;
 }
