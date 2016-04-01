@@ -79,7 +79,7 @@
 }
 .fondoestrofa10{
     background-size: cover;
-    background-image: url(../imagenes/fondo9.jpg);
+    background-image: url(../imagenes/fondo9-2.jpg);
     background-repeat: no-repeat;
 }
 .fondorondadecoloresaudio{
@@ -376,49 +376,12 @@ z-index: 90;
 }
 .rana1{
     position: absolute;
-     width: 10%;
+     width: 8%;
     z-index: 200;
     bottom: 5vh;
+    left: 12%;
+}
 
-}
-.movimiento1{
-    position:absolute;
-     right: 10vw;
-    bottom: 0;
-    margin: 0;
-    width: 10%;
-   
-}
-.movimiento2{
-    position:absolute;
-     right: 10vw;
-    bottom: 0;
-    z-index: 89;
-    margin: 0;
-    
-}
-.movimiento3{
-    position:absolute;
-     right: 10vw;
-    bottom: 0;
-    margin: 0;
-    
-}
-.movimiento4{
-    position:absolute;
-     right: 10vw;
-    bottom: 0;
-
-    margin: 0;
-    
-}
-.movimiento5{
-    position:absolute;
-     right: 10vw;
-    bottom: 0;
-    margin: 0;
-   
-}
 .mundo1{
     position: absolute;
     left: 17%;
