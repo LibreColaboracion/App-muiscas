@@ -87,6 +87,11 @@
     background-image: url(../imagenes/fondo9-2.jpg);
     background-repeat: no-repeat;
 }
+.fondorondadecolores{
+    background-size: cover;
+    background-image: url(../imagenes/fondo7.png);
+    background-repeat: no-repeat; 
+}
 .mitamaño{
     width: 20%;
 }
