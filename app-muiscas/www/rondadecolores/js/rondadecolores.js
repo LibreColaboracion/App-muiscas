@@ -4,7 +4,7 @@ function audio(audio){
         au.play();
 }
 
-
+//tenemos la funcion de audio repetidda
 function efectos(id,clase){
         var a = document.getElementById(id);
         a.className = (clase);
