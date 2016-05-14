@@ -32,7 +32,7 @@ var contador=0;
                     break;
                     case 5:
                         desa.style.display="none";
-                        c = 0;
+                        window.location="inicio.html";
                     break;
                 } 
          }
