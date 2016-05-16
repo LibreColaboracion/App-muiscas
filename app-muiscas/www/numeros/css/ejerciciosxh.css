@@ -74,6 +74,15 @@ body{
     font-size: 5.5vh;
     margin:4%;
 }
+.imgrespuesta{
+    width: 12vh;
+    float: left;
+    margin: -2% 2%;
+}
+.imgr{
+    width: 100%;
+    margin: 1% 2% 2% 2%;
+}
 .opciones{
     width:44%;
     color:black;
@@ -81,7 +90,7 @@ body{
     text-decoration: none;
     font-size: 6vh;
     font-weight: 800;
-    float:left;
+    float: left;
     margin: 3%;
 }
 .imagenp{
@@ -110,3 +119,12 @@ body{
     top:0;
     right: 1.5vh;
 } 
+.imgacierto, .imgerror{
+    width: 50vh;
+    position:absolute;
+    top:20vh;
+    left:50%;
+    transform: translate(-50%);
+    display: none;
+    transition: 1s;
+}

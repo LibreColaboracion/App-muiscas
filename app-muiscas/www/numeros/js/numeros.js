@@ -69,6 +69,8 @@ function quiz(pregun,respu,event) {
     var input1 = document.getElementById("sub");
     var puntaje = document.getElementById("puntaje");
     var error = document.getElementById("errores");
+    var bien = document.getElementById("bien");
+    var mal = document.getElementById("mal");
     var aparecer = document.getElementById("tot");
     var estudio = document.getElementById("estudiar");
     var val = document.getElementById('getexto').value;
@@ -83,6 +85,8 @@ function quiz(pregun,respu,event) {
                 numero = Math.round(Math.random()*((pregun.length)-1));
                 console.log(numero,respuesta,pregun.length);
                 cuerpo.innerHTML ='<div class="relativo"><div class="centrado"><h1>'+pregun[numero]+'</h1></div></div>';
+                bien.style.display ="inherit";
+                setTimeout(function a(){bien.style.display ="none";}, 500);
             }
             if(contar == 15){
                 puntaje.innerHTML= contar;
@@ -94,9 +98,13 @@ function quiz(pregun,respu,event) {
             switch(negativa){
                 case 1:
                     error.innerHTML +="X";
+                    mal.style.display ="inherit";
+                    setTimeout(function a(){mal.style.display ="none";}, 500);
                     break;
                 case 2:
                     error.innerHTML +="X";
+                    mal.style.display ="inherit";
+                    setTimeout(function a(){mal.style.display ="none";}, 500);
                     break;
                 case 3:
                     estudio.style.display="inherit";

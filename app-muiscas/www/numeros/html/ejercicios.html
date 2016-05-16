@@ -3,8 +3,6 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, maximum-scale=2">
-                    <!-- Esté es el css del menu -->
-        <link rel="stylesheet" type="text/css" href="../../css/menu.css">
                     <!-- Esté es el css vertical -->
         <link rel="stylesheet" media="all and (orientation:portrait)" type="text/css" href="../css/ejerciciosxv.css">
                     <!-- Este es el css horizontal -->
@@ -21,9 +19,15 @@
 </div>
 <div id="enun" class="cambio">
         <p class="enunciado">Responde tantas preguntas como puedas escribiendo en muysccubun el número correspondiente</p>
-        <a class="opciones" href="../numerospr.html">Atras</a>
+        <div class="imgr">
+			<img class="imgrespuesta" src="../img/acierto.svg"> <p>Coerrecto</p>
+			<img class="imgrespuesta" src="../img/error.svg"><p>Incorrecto</p>
+		</div>
+        <a class="opciones" href="../numerospr.html">Atrás</a>
         <p class="opciones" onclick="comenzar('enun',ejercicios)">Comenzar<p>
 </div>
+<img class="imgacierto" id="bien" src="../img/acierto.svg">
+<img class="imgerror" id="mal" src="../img/error.svg">
 <div id="tot" class="total">
         <p class="enunciado">Haz logrado responder 15 preguntas sin equivocarte 3 veces</p>
         <a class="opciones" href="../numerospr.html">Números</a>

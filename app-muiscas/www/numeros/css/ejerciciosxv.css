@@ -84,6 +84,15 @@ body{
     float:left;
     margin: 3%;
 }
+.imgrespuesta{
+    width: 15%;
+    float: left;
+    margin: -3% 1% 0 0;
+}
+.imgr{
+    width: 100%;
+    margin: 1% 0 0 1%;
+}
 .imagenp{
     width: 70%;
     margin-left: 8vw;
@@ -109,4 +118,14 @@ body{
     position: fixed;
     top:0;
     right: 1.5vw;
+}
+.imgacierto, .imgerror{
+    width: 50%;
+    position:absolute;
+    top:12%;
+    left:50%;
+    transform: translate(-50%);
+    display: none;
+    transition: 1s;
+    opacity:0.5;
 }
