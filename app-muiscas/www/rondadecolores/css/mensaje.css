@@ -13,7 +13,13 @@
     font-size: 6.5vh;
     font-family: "helvetica";
     margin:5%;
-    
+
+}
+.titulopoeta{
+    display: none;
+}
+.textopoeta{
+    display: none;
 }
 body{background-color: #F18616;
 }
@@ -43,7 +49,7 @@ body{background-color: #F18616;
     display:none;
 
 }
-.español{
+.espaniol{
     display:none;
 }
 
@@ -52,7 +58,7 @@ body{background-color: #F18616;
 
 
 
-.mitamaño{
+.mitamanio{
     display:none;
 }
 .cuchavivap{
@@ -159,7 +165,7 @@ display:none;
 .papagayoestro10{
    display:none;
 }
- 
+
 .serpiente1{
    display:none;
 }
@@ -194,7 +200,7 @@ display:none;
 .muysccubun{
     display:none;
 }
-.español{
+.espaniol{
     display:none;
 }
 .planetaestrofa10{
@@ -202,7 +208,7 @@ display:none;
 }
 .caballoes10{
    display:none;
-    
+
 }
 
 #lebique1{
@@ -226,13 +232,13 @@ display:none;
 }
 .menuarriba img{
     display:none;
-    
+
 
 }
 
 .marco{
     display:none;
-    
+
 }
 
 .poema {
@@ -241,12 +247,12 @@ display:none;
 
 .texto{
     display:none;
-    
+
 }
 
 .textopoema{
     display:none;
-    
-    
+
+
 }
 

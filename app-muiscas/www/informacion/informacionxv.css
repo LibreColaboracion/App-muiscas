@@ -1,11 +1,11 @@
 body{
+  background-color: white;
   margin: 0;
   padding: 0;
   
 }
 .cabecerainfo{
     background-color: yellowgreen;
-    box-shadow: 0 2.5vh 1vh -1vh gray;
     position:fixed;
   top: 0;
     width: 100%;
@@ -22,29 +22,31 @@ body{
     margin-top: 1.5vh;
 }
 .titulo{
+    margin: 0;
+    color: white;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    top: 1.5vh;
-    font-size: 3vh;
+    top: 0.8vh;
+    font-size: 8.5vw;
     font-family: helvetica;
     
    
 }
 .cuerpo{
     width: 100%;
-	font-size: 2vh;
+	font-size: 4vw;
 	font-family: helvetica;
 	background-color: "#ff9100";
 	margin: 1%;
 	position: fixed;
 	top: 10.1vh;
     overflow: auto;
-    height: 80vh;
+    height: 88vh;
 
 }
 
-.color {width: 95%;
+.color {width: 97%;
     text-align: justify;
 
 }
@@ -70,5 +72,11 @@ body{
 	float: left;
 
 }
-
+.instituciones{
+    padding: 15% 0.2% 85% 1%; 
+}
 .cola {text-align: center;}
+.iconoli{
+    width: 40vw;
+    margin-left: 25vw;
+}

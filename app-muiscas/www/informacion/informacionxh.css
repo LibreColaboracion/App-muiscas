@@ -33,29 +33,30 @@ body{
    
 }
 .cuerpo{
-    width: 100%;
-	font-size: 3vh;
+    width: 99%;
+	font-size: 3.5vh;
 	font-family: helvetica;
 	background-color: "#ff9100";
 	margin: 1%;
 	position: fixed;
 	top: 10.1vh;
     overflow: auto;
-    height: 80vh;
+    height: 87.5vh;
 
 }
 
-.color {width: 99%;
+.color {
+    width: 99%;
     text-align: justify;
 
 }
 .color img{
     width: 35%;
     float: left;
-    margin-top: .5em;
-  margin-bottom: .5em;
+    margin-top: 1em;
+  margin-bottom: 1em;
   margin-left: 1em;
-  margin-right: .5em;
+  margin-right: 1em;
 }
 
 .color p {margin: 1% 1% 1% 1%;
@@ -77,5 +78,18 @@ body{
 	float: left;
 
 }
-
+.instituciones{
+    padding: 15% 0.2% 85% 1%; 
+}
 .cola {text-align: center;}
+
+.iconoli{
+    width: 40vw;
+    margin-left: 25vw;
+}
+h1{
+    text-align: center;
+}
+b{
+    margin-left: 35vw;
+}
