@@ -4,6 +4,7 @@
 
 }
 .gris{
+    -webkit-filter: grayscale(100%);
     filter: grayscale(0); /* Color */
     filter: grayscale(0.5); /* 50% color */
     filter: grayscale(1); /* Blanco y negro */
