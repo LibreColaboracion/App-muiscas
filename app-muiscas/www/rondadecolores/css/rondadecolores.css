@@ -33,68 +33,81 @@
 /*Nuestros estilos*/
 body{
     background-color: white;
+    overflow:hidden;
 }
 .fondoestrofa1{
-    background-size: cover;
+    background-size: 100%;
     background-image: url(../imagenes/fondo1.jpg);
     background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 .fondoestrofa2{
     background-size: cover;
     background-image: url(../imagenes/fondo2-1.jpg);
     background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 .fondoestrofa3{
     background-size: cover;
     background-image: url(../imagenes/fondo3.jpg);
     background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 .fondoestrofa4{
     background-size: cover;
     background-image: url(../imagenes/fondo4.png);
     background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 .fondoestrofa5{
     background-size: cover;
     background-image: url(../imagenes/fondo5.png);
     background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 .fondoestrofa6{
     background-size: cover;
     background-image: url(../imagenes/fondo6.png);
     background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 .fondoestrofa7{
     background-size: cover;
     background-image: url(../imagenes/fondoarbol.jpg);
     background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 
 .fondoestrofa8{
     background-size: cover;
     background-image: url(../imagenes/fondo7.png);
     background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 
 .fondoestrofa9{
     background-size: cover;
     background-image: url(../imagenes/fondo9-2.jpg);
     background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 .fondoestrofa10{
     background-size: cover;
     background-image: url(../imagenes/fondo9-2.jpg);
     background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 .fondorondadecoloresaudio{
      background-size: cover;
     background-image: url(../imagenes/fondo9-2.jpg);
     background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 .fondorondadecolores{
     background-size: cover;
     background-image: url(../imagenes/fondo7.png);
     background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 .mitamanio{
     width: 20%;
