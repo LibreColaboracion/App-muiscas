@@ -44,6 +44,10 @@ body{
     width:20%;
     transition:all 2s;
 }
+.taman{
+    width:20%;
+    height:20%;
+}
 .zoom{
     width:30%;
     transition:all 2s;

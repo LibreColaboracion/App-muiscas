@@ -18,13 +18,13 @@ var  preguntas1 = ['Choá','Moaz _______ umzone.','ehe.<br>_______ fernando gue.
 var respuestas1 = ['chogue','choá','zehica','gue','cha','nga','ahyca','ahyca','nziga','ipqua','ahyca','mis','ichosqua'];
 
 var preguntas2 =[
-    '<img class="tamano" src="../imagenes/mediodia.gif"> <b class="noseve">------</b> _ _ _ _ _ _ <b class="noseve">------</b> _ _ _',
-    '<img class="tamano" src="../imagenes/medianoche.gif"> <b class="noseve">------</b> _ _ _ _ _ _ <b class="noseve">------</b> _ _',
-    '<img class="tamano" src="../imagenes/amanecer.gif">_ _ _ _ _ _<b class="noseve">----</b> _ _ _<b class="noseve">----</b>_ _ _ _',
-    '<img class="tamano" src="../imagenes/atardecer.gif">_ _ _ _ _ _<b class="noseve">----</b> _ _ _<b class="noseve">----</b>_ _ _ _',
-    '<img class="tamano" src="../imagenes/joven.svg"> <b class="noseve">------</b> _ _ _ _ _',
-    '<img class="tamano" src="../imagenes/persona.svg"><b class="noseve">----</b> _ _ _ _ _',
-    '<img class="tamano" src="../imagenes/personas.svg"><b class="noseve">----</b> _ _ _ _ _ _ _ _ _',
+    '<img class="taman" src="../imagenes/mediodia.gif"> <b class="noseve">------</b> _ _ _ _ _ _ <b class="noseve">------</b> _ _ _',
+    '<img class="taman" src="../imagenes/medianoche.gif"> <b class="noseve">------</b> _ _ _ _ _ _ <b class="noseve">------</b> _ _',
+    '<img class="taman" src="../imagenes/amanecer.gif">_ _ _ _ _ _<b class="noseve">----</b> _ _ _<b class="noseve">----</b>_ _ _ _',
+    '<img class="taman" src="../imagenes/atardecer.gif">_ _ _ _ _ _<b class="noseve">----</b> _ _ _<b class="noseve">----</b>_ _ _ _',
+    '<img class="taman" src="../imagenes/joven.svg"> <b class="noseve">------</b> _ _ _ _ _',
+    '<img class="taman" src="../imagenes/persona.svg"><b class="noseve">----</b> _ _ _ _ _',
+    '<img class="taman" src="../imagenes/personas.svg"><b class="noseve">----</b> _ _ _ _ _ _ _ _ _',
     'Muy Bien!! Ya conoces algunos saludos, ahora escribe el saludo o la respuesta que haga falta:<br><br>____ --> Chogue',
     '___<b class="noseve">--</b>____<b class="noseve">--</b>_______ --> Sua choc aguene',
     'Za choc aguenua --> __<b class="noseve">--</b>____<b class="noseve">--</b>_______'
