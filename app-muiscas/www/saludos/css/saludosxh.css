@@ -44,6 +44,7 @@ body{
     transition:all 2s;
 }
 .contizquierda, .contderecha{
+    align-items: center;
     display:flex;
     margin:4% 2% 4% 2%;
 }
@@ -52,7 +53,7 @@ body{
 }
 .caras, .burbuja, .texto, .imgaudio{
     display:inline-flex;
-    margin:0.5%;
+    margin:0.7%;
     padding:0.5%;
 }
 .caras{

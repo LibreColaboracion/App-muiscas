@@ -48,6 +48,7 @@ body{
     transition:all 1s;
 }
 .contizquierda, .contderecha{
+    align-items: center;
     display:flex;
     margin:7.5% 2% 7.5% 2%;
 }
@@ -64,6 +65,7 @@ body{
 }
 .burbuja{
     width: 70%;
+    height:auto;
     border-radius: 10px 10px;
 }
 .izquierda{
