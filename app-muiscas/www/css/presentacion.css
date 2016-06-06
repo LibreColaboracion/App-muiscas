@@ -70,10 +70,12 @@ p{
 }
 @media (orientation: landscape){
     .bogota, .fuga, .aacyc, .bosa, .suba, .lc{
-        width:40vw;
+        width:40%;
+        height:40%;
     }
     .cyc{
-        width:30vw;
+        width:30%;
+        height:30%;
     }
     h1{
         font-size:11vw;
