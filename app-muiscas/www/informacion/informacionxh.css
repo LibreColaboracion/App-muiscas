@@ -1,7 +1,7 @@
-body{
+﻿body{
   margin: 0;
   padding: 0;
-  
+
 }
 .cabecerainfo{
     background-color: yellowgreen;
@@ -29,8 +29,8 @@ body{
     margin-top: 1%;
     font-size: 8vh;
     font-family: helvetica;
-    
-   
+
+
 }
 .cuerpo{
     width: 99%;
@@ -65,7 +65,7 @@ body{
 
 
 .fotos2 {width: 100%;
-        
+
 }
 
 .color{
@@ -79,7 +79,8 @@ body{
 
 }
 .instituciones{
-    padding: 15% 0.2% 85% 1%; 
+    padding: 15% 0.2% 85% 1%;
+    margin-bottom:6%;
 }
 .cola {text-align: center;}
 
