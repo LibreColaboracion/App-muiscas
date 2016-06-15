@@ -12,7 +12,10 @@
     </head>
 <body>
 <div class="resultados">
-    <p class="res">Puntaje: <b class="res" id="puntaje"></b></p>
+    <img class="imgresultados" src="../img/acierto.svg"> 
+    <b class="res" id="puntaje">
+    </b>
+    <img class="imgresultados resultadoder" src="../img/error.svg">
     <p class="res error" id="errores"></p>
 </div>
 <div id="e1" class="caja">
@@ -20,9 +23,15 @@
 <div id="enun" class="cambio">
         <p class="enunciado">Responde tantas preguntas como puedas escribiendo en muysccubun el número correspondiente</p>
         <div class="imgr">
-			<img class="imgrespuesta" src="../img/acierto.svg"> <p>Coerrecto</p>
-			<img class="imgrespuesta" src="../img/error.svg"><p>Incorrecto</p>
-		</div>
+            <div class="enunrespuesta">
+                <img class="imgrespuesta" src="../img/acierto.svg"> 
+                <p class="enunciado">Correcto</p>
+            </div>
+            <div class="enunrespuesta">
+                <img class="imgrespuesta" src="../img/error.svg">
+                <p class="enunciado">Incorrecto</p>
+            </div>
+        </div>
         <a class="opciones" href="../numerospr.html">Atrás</a>
         <p class="opciones" onclick="comenzar('enun',ejercicios)">Comenzar<p>
 </div>
@@ -35,7 +44,7 @@
 </div>
 <div id="estudiar" class="estudiar">
         <p class="enunciado">Debes volver a repasar los números en muysccubun</p>
-        <a class="opciones" href="../html/numerosmenu.html">Estudiar</a>
+        <a class="opc" href="../html/numerosmenu.html">Estudiar</a>
 </div>
 <div id="sub" class="subministrar">
     <input id="getexto" onkeyup="quiz(ejercicios,respuestas,event)" class="inputexto" type="text"></textarea>

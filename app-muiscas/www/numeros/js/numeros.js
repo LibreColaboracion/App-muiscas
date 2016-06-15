@@ -97,19 +97,19 @@ function quiz(pregun,respu,event) {
             negativa++;
             switch(negativa){
                 case 1:
-                    error.innerHTML +="X";
+                    error.innerHTML ="1";
                     mal.style.display ="inherit";
                     setTimeout(function a(){mal.style.display ="none";}, 500);
                     break;
                 case 2:
-                    error.innerHTML +="X";
+                    error.innerHTML ="2";
                     mal.style.display ="inherit";
                     setTimeout(function a(){mal.style.display ="none";}, 500);
                     break;
                 case 3:
                     estudio.style.display="inherit";
                     input1.style.display ="none";
-                    error.innerHTML +="X";
+                    error.innerHTML ="3";
                     break;
             }
         }
