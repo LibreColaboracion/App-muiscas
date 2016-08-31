@@ -1,19 +1,16 @@
-﻿body{
+body{
   background-color: white;
   margin: 0;
   padding: 0;
-
+  overflow
 }
 .cabecerainfo{
     background-color: yellowgreen;
     position:fixed;
-  top: 0;
+    top: 0;
     width: 100%;
     height:10vh;
 }
-
-
-
 .atrasmenu{
     width: 7%;
     position: fixed;
@@ -30,22 +27,18 @@
     top: 0.8vh;
     font-size: 8.5vw;
     font-family: helvetica;
-
-
 }
 .cuerpo{
     width: 100%;
-	font-size: 4vw;
-	font-family: helvetica;
-	background-color: "#ff9100";
-	margin: 1%;
-	position: fixed;
-	top: 10.1vh;
+    font-size: 4vw;
+    font-family: helvetica;
+    background-color: "#ff9100";
+    margin: 1%;
+    position: fixed;
+    top: 10.1vh;
     overflow: auto;
     height: 88vh;
-
 }
-
 .color {width: 97%;
     text-align: justify;
 
@@ -53,36 +46,50 @@
 .color img{
     width: 100%;
 }
-
 .color p {margin: 1% 1% 1% 1%;
-
 }
-
-
 .fotos2 {width: 100%;
 }
-
 .color{
     background-color: #ffd180;
 }
-
-
 .iconoinf{
-	width: 47%;
-	float: left;
-
+    width: 47%;
+    float: left;
 }
 .instituciones{
     padding: 15% 0.2% 85% 1%;
     margin-bottom:6%;
 }
-.cola {text-align: center;}
+.cola {
+    text-align: center;
+}
 .iconoli{
     width: 40vw;
     margin-left: 25vw;
 }
 .iconocaroycuervo{
-        width: 30%;
-        float: left;
-
+    width: 30%;
+    float: left;
+}
+/*------------------ Textos Bilingües------------------------*/
+.decoracionbordes{
+    width: 97%;
+    overflow:hidden;
+    text-align:center;
+    border: 1.5vw double black;
+    margin: 3.5vh 0;
+}
+.contenedor{
+    width: 200%;
+    transition: 0.75s;
+}
+.textosbilingues{
+    width: 50%;
+    text-align:center;
+    float: left;
+    margin:0.5vh 0 1vh 0;
+}
+.izquierdatext{
+    text-align:right;
 }
